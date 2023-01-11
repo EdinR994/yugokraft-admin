@@ -1,0 +1,175 @@
+@import '../../constants/globalConstants.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.settings {
+
+	&__formContainer {
+		padding: 41px 65px 53px 56px;
+
+		width: 542px;
+		height: 724px;
+		left: 648px;
+		top: 160px;
+
+		background: $form-container-color;
+		border: 1.5px solid $form-border-color;
+		box-sizing: border-box;
+
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+
+		margin: 80px auto;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+
+	&__formHeading {
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 33px;
+		text-align: left;
+		margin: 0;
+		color: $text-color;
+	}
+
+	&__text {
+		margin-top: 28px;
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: $support-border-color-light;
+	}
+
+	&__description {
+		margin: 0 0 29px 16px;
+		display: block;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 13px;
+		line-height: 20px;
+		text-align: left;
+		color: $support-text-color;
+		opacity: 0.6;
+	}
+
+	&__input {
+		width: 100%;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+		color: $support-text-color;
+		opacity: 0.8;
+		border: none;
+		outline: none;
+	}
+
+	&__star {
+		color: $error-color;
+		opacity: 0.8;
+	}
+
+	&__form {
+		margin-top: 65px;
+	}
+
+	&__fieldset {
+		margin: 0;
+		padding: 0 16px;
+		box-sizing: border-box;
+		display: block;
+		text-align: left;
+		width: 421px;
+		height: 58px;
+		background: $form-container-color;
+		border: 2px solid $support-border-color;
+		box-sizing: border-box;
+		border-radius: 6px;
+	}
+
+	&__legend {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 20px;
+		color: $support-border-color;
+	}
+
+	&__textarea {
+		resize: none;
+		display: block;
+		margin: 29px;
+		padding: 12px 16px;
+		width: 459px;
+		height: 200px;
+		background-color: $textarea-bg;
+		border-radius: 6px;
+		margin: 0px 0px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+		color: $support-text-color;
+		border: none;
+		border: 2px solid $form-container-color;
+		transition: border 0.3s;
+	}
+
+	&__textarea:focus {
+		border: 2px solid $support-border-color;
+		outline: none;
+	}
+
+	&__textarea::placeholder {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+		color: $placeholder-color;
+		opacity: 0.8;
+	}
+}
+
+.buttonText {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+
+.submitButton {
+	margin-top: 292px;
+	display: block;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	background: $pink-color;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+
+	color: $form-container-color;
+	cursor: pointer;
+}
+
+.border_red {
+	border: 2px solid red;
+}
+
+.menuItem {
+	color: red;
+	font-size: 50px;
+	background-color: #fff;
+}
+

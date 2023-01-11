@@ -1,0 +1,137 @@
+@import "../../constants/globalConstants";
+
+.statistics {
+	padding: 55px 110px;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__filters {
+		font-family: 'Inter', sans-serif;
+		width: 150px;
+		height: 37px;
+		background: $textarea-bg;
+		border: 1.5px solid #DDDFE0;
+		border-radius: 5px;
+		font-size: 16px;
+		color: #25213B;
+		padding-left: 15px;
+		transition: border-color 0.2s;
+	}
+
+	&__filters_error {
+		border: 2px solid #ff0000;
+	}
+
+	&__filters:focus {
+		outline: none;
+	}
+
+	&__filters_container {
+		display: flex;
+		position: relative;
+		font-size: 16px;
+	}
+
+	&__filters_button {
+		font-family: 'Inter', sans-serif;
+		font-weight: bold;
+		width: 138px;
+		height: 37px;
+		background: $main-color;
+		margin-left: 9px;
+		border-radius: 5px;
+		font-size: 16px;
+		outline: none;
+		border: none;
+		color: $form-container-color;
+		cursor: pointer;
+	}
+
+	&__filters_button_disabled {
+		background-color: #BDCDDA;
+	}
+
+	&__filters_button:disabled {
+		background-color: #BDCDDA;
+	}
+
+	&__line {
+		margin: 18px 9px;
+		width: 10px;
+		height: 1px;
+		background-color: #A6A6A6;
+	}
+
+	&__heading {
+		font-family: 'Inter', sans-serif;
+		font-size: 24px;
+		color: $main-color;
+		margin: 0;
+		line-height: 37px;
+	}
+
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, max-content));
+		grid-gap: 10px;
+		justify-content: space-around;
+	}
+
+	&__buttons {
+		margin: 28px auto 35px;
+		width: fit-content;
+		background-color: rgba(118, 118, 128, 0.12);
+		border-radius: 9px;
+		height: 32px;
+		padding: 2px;
+		display: flex;
+		flex-wrap: nowrap;
+		position: relative;
+	}
+
+	&__button {
+		position: relative;
+		width: 175px;
+		height: 28px;
+		outline: none;
+		border-radius: 7px;
+		border: 0.5px solid transparent;
+
+		font-family: 'Inter', sans-serif;
+		font-size: 15px;
+		font-weight: 500;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	&__button_active {
+		position: relative;
+		background-color: $form-container-color;
+		border: 0.5px solid rgba(0, 0, 0, 0.04);
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12), 0 3px 1px rgba(0, 0, 0, 0.04);
+		border-radius: 7px;
+	}
+
+	&__button:first-child.statistics__button_active::before {
+		content: '';
+		position: absolute;
+		top: 6px;
+		left: 200%;
+		height: 16px;
+		width: 1px;
+		background-color: #8E8E93;
+	}
+
+	&__button:last-child.statistics__button_active::before {
+		content: '';
+		position: absolute;
+		top: 6px;
+		right: 200%;
+		height: 16px;
+		width: 1px;
+		background-color: #8E8E93;
+	}
+}

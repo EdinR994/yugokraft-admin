@@ -1,0 +1,112 @@
+.form {
+
+	&__select_container {
+		position: relative;
+	}
+
+	&__select {
+		width: 320px;
+		height: 40px;
+		border: 1px solid #B9BDC1;
+		border-radius: 5px;
+		position: relative;
+		appearance: none;
+		background-color: #E9E9E9;
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		line-height: 40px;
+		color: #000;
+		outline: none;
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		z-index: 80;
+
+		&_error {
+			border: 1.5px solid #ff0000;
+		}
+	}
+
+	&__triangle {
+		background: transparent url('/img/red_triangle.png') no-repeat 50% 50%;
+		width: 40px;
+		height: 40px;
+		transition: transform 0.3s ease;
+	}
+
+	&__options {
+		position: absolute;
+		max-height: 0;
+		top: 34px;
+		width: 320px;
+		background: #fff;
+		border: 1px solid #aeaeae;
+		border-radius: 5px;
+		overflow: hidden;
+		transition: max-height 0.4s;
+		cursor: pointer;
+		z-index: 71;
+		box-sizing: border-box;
+	}
+
+	&__option {
+		font-family: 'Inter', sans-serif;
+		line-height: 44px;
+		font-size: 16px;
+		height: 44px;
+		margin-bottom: 1px;
+	}
+
+	&__option:last-child {
+		margin-bottom: 8px;
+	}
+
+	&__options_open {
+		transition: max-height 0.4s;
+		max-height: fit-content;
+	}
+
+	&__checkbox>input {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	&__checkbox>span {
+		display: inline-flex;
+		width: 100%;
+		align-items: center;
+		user-select: none;
+		font-family: Inter, sans-serif;
+		font-size: 16px;
+		color:  #25213B;
+		cursor: pointer;
+	}
+
+	&__checkbox>span:hover {
+		background-color: #f0f0f0;
+	}
+
+	&__zone,
+	&__text {
+		font-family: Inter;
+		font-size: 16px;
+		line-height: 40px;
+		color: #25213B;
+		cursor: pointer;
+		text-indent: 14px;
+	}
+
+	&__zone {
+		background-color: #fff;
+	}
+}
+
+@media screen and (max-width: 925px) {
+	.form__select {
+		max-width: 300px;
+	}
+	.form__options {
+		max-width: 300px;
+	}
+}

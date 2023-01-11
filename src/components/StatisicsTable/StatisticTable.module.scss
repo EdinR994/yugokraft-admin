@@ -1,0 +1,50 @@
+@import '../../constants/globalConstants.scss';
+
+.table {
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 0 10px 10px 0;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+	&__header_row {
+		text-align: left;
+		height: 57px;
+		font-weight: 600;
+		font-size: 12px;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		color: #647C8E;
+		background-color: $textarea-bg;
+	}
+
+	&__header {
+		padding: 0 20px;
+	}
+
+	&__header:first-child {
+		text-align: center;
+	}
+
+	&__row {
+		height: 40px;
+		border-bottom: 1px solid #DDE0E3;
+	}
+
+	&__data {
+		text-align: left;
+		padding: 0 20px;
+		word-wrap: break-word;
+	}
+
+	&__data:first-child {
+		text-align: center;
+	}
+
+	&__footer {
+		height: 18px;
+	}
+}

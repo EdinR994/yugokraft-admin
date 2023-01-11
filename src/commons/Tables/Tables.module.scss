@@ -1,0 +1,286 @@
+.table {
+	table-layout: fixed;
+	word-wrap: break-word;
+	border-collapse: collapse;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+	min-width: 1478px;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	letter-spacing: 0.05em;
+}
+
+.tableHeaderRow {
+	height: 45px;
+	background-color: #f3f3f3;
+	text-align: left;
+	text-transform: uppercase;
+	color: #647c8e;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.tableBodyRow {
+	height: 60px;
+	font-weight: 500;
+	font-size: 14px;
+	color: #25213b;
+	border-bottom: 1px solid #dde0e3;
+}
+
+.chckColumn {
+	width: 80px;
+}
+
+.nameColumn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px 10px 0;
+
+	&Header {
+		width: 250px;
+		padding-right: 20px;
+	}
+}
+
+.nameColumnWrapper {
+	width: 100%;
+}
+
+.countryColumn {
+	width: 140px;
+}
+
+.ageColumn {
+	width: 68px;
+}
+
+.eduColumn {
+	width: 170px;
+}
+
+.langColumn {
+	width: 120px;
+}
+
+.regionColumn {
+	width: 150px;
+}
+
+.dateColumn {
+	width: 230px;
+}
+
+.startColumn{
+	width: 250px;
+
+	&Pending {
+		width: 105px;
+	}
+}
+
+.statusColumn {
+	width: 160px;
+
+	&Employers {
+		width: 100px;
+	}
+}
+
+.moreInfoColumn {
+	width: 100px;
+	text-align: center;
+}
+
+.companyColumn {
+	width: 150px;
+}
+
+.mainInf {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.secondaryInf {
+  font-weight: normal;
+  color: #647c8e;
+	margin: 0;
+}
+
+.detailedInf {
+	background-image: url("/img/detailed_info.svg");
+	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+	cursor: pointer;
+
+	&:hover {
+		background-image: url("/img/detailed_info-hover.svg");
+	}
+}
+
+.footer {
+	border-radius: 5px 5px 5px 5px;
+	height: 45px;
+	font-weight: 600;
+	font-size: 12px;
+	color: #647c8e;
+}
+
+.footerRow {
+	height: 45px;
+	background: #f3f3f3;
+	font-weight: 600;
+	color: #647c8e;
+}
+
+.pagesSelect {
+	display: flex;
+	align-items: center;
+	min-width: 200px;
+	padding: 7px 0;
+}
+
+.pagesSelectContainer {
+	display: inline-flex;
+	position: relative;
+}
+
+.dropdownBtn {
+	background-image: url('/img/dropdownPerPage.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #f3f3f3;
+	border: none;
+	outline: none;
+	padding: 15px;
+	width: 8px;
+	height: 5px;
+	cursor: pointer;
+}
+
+.perPage {
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	color: #647c8e;
+}
+
+.perPageSelect {
+	position: absolute;
+	right: -5px;
+	bottom: 25px;
+	background-color: #f3f3f3;
+	border: 1px solid #dde0e3;
+
+}
+
+.perPageList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+
+	& li {
+		margin-bottom: 5px;
+	}
+}
+
+.paginationText {
+	min-width: 155px;
+}
+
+.pagination {
+	min-width: 100px;
+	text-align: end;
+	padding-right: 20px;
+}
+
+.range {
+	display: block;
+	width: 100%;
+}
+
+.prevPage {
+	background-image: url('/img/page-left.svg');
+}
+
+.nextPage {
+	background-image: url('/img/page-right.svg');
+	padding: 0;
+	margin-left: 50px;
+}
+
+.nextPage,
+.prevPage {
+	background-color: #f3f3f3 ;
+	width: 6px;
+	height: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.detailedCheckbox>input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.detailedCheckbox>span {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+}
+
+.detailedCheckbox>span::before {
+	content: '';
+	display: inline-block;
+	border: 1.5px solid #b9bdc1;
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+
+	margin: 20px;
+	cursor: pointer;
+	flex-shrink: 0;
+	flex-grow: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+
+.detailedCheckbox>input:not(:disabled):not(:checked)+span:hover::before {
+	border-color: #b3d7ff;
+}
+
+.detailedCheckbox>input:not(:disabled):active+span::before {
+	background-color: #b3d7ff;
+	border-color: #b3d7ff;
+}
+
+.detailedCheckbox>input:checked+span::before {
+	background-image: url("/img/flag.svg");
+	background-color: #f27480;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+}

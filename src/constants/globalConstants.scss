@@ -1,0 +1,41 @@
+$main-color: #1E496B;
+$background-color: #F8FAFD;
+$sidebar-color: #f4f4f4;
+$text-color: #000;
+$pink-color: #F27480;
+$form-container-color: #FFF;
+$border-color: #C6C6C6;
+$card-heading-color: #081F32;
+$card-position-color: #007ae9;
+$line-color: #EBECED;
+$card-text-color: #6E798C;
+$form-border-color: #E6E7E8;
+$input-border-color: #E8EAEC;
+$textarea-bg: #F3F3F3;
+$support-border-color: #3A607D;
+$support-border-color-light: #A2A2A2;
+$support-text-color: #09101D;
+$error-color: #DA1414;
+$placeholder-color: #B8B8B8;
+$button-disable-color: #BDBDBD;
+$input-focus-border: #007ad9;
+$form-text-color: #A2A2A2;
+$table-header-text-color: #647C8E;
+$button-hide-color: #B9BDC1;
+$calendar-border-color: #E1E1E1;
+$headings-color: #25213b;
+
+
+@mixin flex($fd, $jc, $ai, $fw) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-wrap: $fw;
+}
+
+@mixin list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

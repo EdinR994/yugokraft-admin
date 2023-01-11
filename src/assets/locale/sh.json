@@ -1,0 +1,108 @@
+{
+  "general": {
+    "logout": "Logout",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "want-logout?": "You really want to logout?"
+  },
+  "validation": {
+    "invalid-email": "Invalid email",
+    "require-field": "This field is required",
+    "password-contain-digit": "Password must contain at least one digit",
+    "password-length": "The password must be at least 8 characters long",
+    "password-match": "Passwords do not match"
+  },
+  "home-screen": {
+    "username": "Username",
+    "email": "E-Mail adresa",
+    "country": "Drzava",
+    "phone": "Broj telefona",
+    "birth": "Birth date",
+    "create-date": "Created at",
+    "update-date": "Update at",
+    "actions": "Actions",
+    "more-info": "More info"
+  },
+  "sidebar": {
+    "candidates": "Candidates"
+  },
+  "login-screen": {
+    "authorization": "Authorization",
+    "email": "E-Mail adresa",
+    "enter-email": "Enter your email",
+    "password": "Password",
+    "enter-password": "Enter your password",
+    "sign-in": "Sign in",
+    "authorization-error": "Authorization error"
+  },
+  "registration-screen": {
+    "registration": "Registration",
+    "email": "Email",
+    "enter-email": "Enter your email",
+    "password": "Password",
+    "enter-password": "Enter your password",
+    "full-name": "Full name",
+    "enter-full-name": "Enter your full name",
+    "sign-up": "Sign up",
+    "registration-error": "Registration error"
+  },
+  "user-popup": {
+    "education": {
+      "education": "Education",
+      "institute": "Institute"
+    },
+    "jobs": {
+      "jobs": "Jobs",
+			"specialization": "Specialization",
+			"company": "Company",
+      "experience": "Experience",
+      "position": "Position",
+      "responsibilities": "Responsibilities"
+    },
+    "languages": {
+      "language": "Language",
+      "languages": "Languages",
+      "level": "Level"
+    },
+    "polls": {
+      "polls": "Polls",
+      "region": "Region",
+      "reason": "Reason",
+      "date": "Date",
+      "available": "Available"
+    },
+    "skills": {
+      "skills": "Skills",
+      "skill": "Skill",
+      "description": "Description"
+    },
+    "documents": {
+      "documents": "Documents"
+    }
+	},
+	"header-links": {
+		"list-of-candidates": "List of candidates",
+		"pending-candidates": "Pending candidates",
+		"calendar": "Calendar",
+		"support": "Support"
+	},
+
+	"personal-info": {
+		"name": "Name",
+		"email": "Email",
+		"company": "Company",
+		"heading": "Personal account",
+		"button": "Save changes"
+	},
+
+	"support": {
+		"heading": "Support",
+		"text": "Send us your feedback or questions, we will consider it and send you an answer as soon as possible. To send a message, you need to provide your email address",
+		"email": "Your email",
+		"placeholder": "Your message",
+		"enter-email": "Enter relevant email, please",
+		"problem": "Describe your problem or ask a question",
+		"button-text": "Send message"
+	}
+}

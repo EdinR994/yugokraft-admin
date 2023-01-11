@@ -1,0 +1,308 @@
+@import "../../constants/globalConstants";
+
+@keyframes popup {
+  0%{
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.popupWrapper {
+  position: fixed;
+	top:0;
+	left: 0;
+  display: flex;
+	width: 100%;
+	height: 100%;
+  align-items: center;
+  justify-content: center;
+	background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+	overflow-y: scroll;
+}
+
+.popupWrapperHide {
+	display: none;
+}
+
+.popupContainer {
+	position: absolute;
+	width: 1139px;
+	left: calc(50% - 500px);
+	top: calc(50% - 489px/2 + 0.5px);
+	margin-bottom: 200px;
+	background: #fff;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+	border-radius: 16px;
+	padding: 40px;
+	padding-bottom: 100px;
+}
+
+.popupTable {
+	text-align: left;
+	border-radius: 16px;
+	border-collapse: collapse;
+	width:100%;
+	max-width: 100%;
+	background: #fff;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.popupTable thead {
+	background: #f3f3f3;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #647c8e;
+}
+
+.popupTable thead tr {
+	height: 57px;
+}
+
+.popupTable tbody tr {
+	height: 45px;
+	border-bottom: 1px solid #dde0e3;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #25213b;
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.popupTable tbody {
+	border-radius: 0 0 16px 16px;
+}
+
+.popupTable th,
+.popupTable td {
+	padding-left: 56px;
+
+	&:last-child {
+		padding-right: 56px;
+	}
+}
+
+.buttonContainer {
+	display: flex;
+	justify-self: center;
+	width: 620px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 0 0 16px 16px;
+	margin: 35px auto 0;
+}
+
+.infoContainer {
+	margin-top: 30px;
+}
+
+.sendButton {
+	font-family: Inter, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 266px;
+	height: 56px;
+	background: #f27480;
+	border-radius: 6px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.closeButton {
+	font-family: Inter, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 161px;
+	height: 56px;
+	border: 1.5px solid #b9bdc1;
+	background-color: #fff;
+	outline: none;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: #b9bdc1;
+	cursor: pointer;
+}
+
+.contactIcon {
+	width: 17px;
+	height: 21px;
+	margin-right: 12px;
+}
+
+.secondaryIcon {
+	width: 20px;
+	height: 20px;
+	margin-right: 9px;
+}
+
+.eduIcon{
+	width: 25px;
+	height: 15px;
+	margin-right: 4px;
+}
+
+.langIcon {
+	width: 19px;
+	height: 19px;
+	margin-right: 10px;
+}
+
+.pollsIcon {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.skillsIcon {
+	width: 17px;
+	height: 20px;
+	margin-right: 11px;
+}
+
+.desiredIcon {
+	width: 19px;
+	height: 17px;
+	margin-right: 10px;
+}
+
+.docsIcon {
+	width: 15px;
+	height: 20px;
+	margin-right: 14px;
+}
+
+.heading {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1e496b;
+	margin: 0;
+
+	&Container {
+		display: flex;
+		align-items: center;
+		margin: 0 0 16px 0;
+	}
+
+	&Left {
+		display: flex;
+	}
+
+	&Btn {
+		margin-right: 56px;
+	}
+}
+
+.documentsContainer {
+	display: flex;
+	align-items: center;
+	margin: 0 0 16px 0;
+	justify-content: space-between;
+}
+
+.contactInfo {
+	font-family: Inter, sans-serif;
+	display: flex;
+	margin-bottom: 40px;
+
+	&Section {
+		display: flex;
+		flex-direction: column;
+
+		&:first-child {
+			margin-right: 50px;
+		}
+	}
+
+	&Main {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		color: #25213b;
+		margin: 0 0 3px 0;
+	}
+
+	&Secondary {
+		font-weight: normal;
+		color: #647c8e;
+		margin: 0;
+		font-style: normal;
+		font-size: 14px;
+		letter-spacing: 0.05em;
+	}
+
+	&Secondary:not(:last-child) {
+		margin-bottom: 3px;
+	}
+}
+
+.desiredSpheresList {
+	list-style: none;
+	padding-left: 30px;
+	margin: 0;
+
+	&Item {
+		font-family: Inter, sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #25213b;
+	}
+}
+
+.downloadBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 188px;
+	height: 36px;
+	background-color: #1e496b;
+
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.downloadCell {
+	width: 235px;
+}
+
+.fieldMinWidth {
+	min-width: 150px;
+}

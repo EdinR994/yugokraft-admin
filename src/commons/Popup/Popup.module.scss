@@ -1,0 +1,91 @@
+@import "../../constants/globalConstants";
+
+@keyframes popup {
+  0%{
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.popupWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.popupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  height: 42vh;
+  width: 42vw;
+  max-width: 500px;
+  min-width: 400px;
+  background-color: $form-container-color;
+  animation: popup 0.2s;
+
+  label {
+    color: $main-color;
+  }
+}
+
+.popupWrapperHide {
+  display: none;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.calendarLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	max-width: 430px;
+	height: 56px;
+
+	background-color: $main-color!important;
+	color: $background-color!important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	border: none!important;
+	outline: none!important;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+	text-decoration: none;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 56px;
+		width: 14px;
+		background-color: $pink-color;
+	}
+
+	&:hover {
+		background-color: darken($main-color, 5%) !important;
+		color: $background-color!important;
+	}
+}

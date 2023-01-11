@@ -1,0 +1,26 @@
+@import "../../constants/globalConstants";
+
+.person {
+	position: absolute;
+	top: -1px;
+	height: 51px;
+	left: 0;
+	background: #E6ECF0;
+	font-family: 'Inter', sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.2px;
+	color: $main-color;
+	cursor: pointer;
+	transition: color, background 0.3s ease;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	z-index: 1;
+	padding: 0 5px;
+}
+
+.person:hover {
+	background: $main-color;
+	color: $form-container-color;
+	transition: color, background 0.3s ease;
+}

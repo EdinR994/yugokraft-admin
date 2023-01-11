@@ -1,0 +1,161 @@
+@import "../../constants/globalConstants";
+
+.form {
+	font-family: 'Inter', sans-serif;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		width: 621px;
+		height: 266px;
+		justify-content: space-between;
+		margin: 35px auto;
+		position: relative;
+	}
+
+	&__heading {
+		font-family: 'Inter', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		color: #1E496B;
+	}
+
+	&__select_container {
+		position: relative;
+	}
+
+	&__select {
+		width: 100%;
+		height: 40px;
+		border: 1px solid #D8E1E9;
+		border-radius: 3px;
+		position: relative;
+		appearance: none;
+		background: #F3F3F3;
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		line-height: 22px;
+		padding-left: 14px;
+		color: $headings-color;
+		outline: none;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__triangle {
+		background: transparent url('/img/red_triangle.png') no-repeat 50% 50%;
+		width: 40px;
+		height: 40px;
+		transition: transform 0.3s ease;
+	}
+
+	&__options {
+		position: absolute;
+		max-height: 0;
+		top: 40px;
+		width: 621px;
+		background: #EDEDED;
+		overflow: hidden;
+		transition: max-height 0.4s;
+		z-index: 1;
+
+	}
+	&__options_open {
+		transition: max-height 0.4s;
+		max-height: fit-content;
+	}
+
+	&__text {
+		color: #1E496B;
+		font-size: 15px;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		width: 90%;
+	}
+
+	&__option {
+		font-family: 'Inter', sans-serif;
+		line-height: 28px;
+		font-size: 16px;
+		padding-left: 14px;
+		color: $headings-color;
+		outline: none;
+		margin: 16px 0;
+	}
+
+	&__textarea {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+
+		padding: 12px 16px;
+		height: 120px;
+		background: #F3F3F3;
+		border: 2px solid transparent;
+		border-radius: 6px;
+		resize: none;
+	}
+
+	&__textarea::placeholder {
+		color: #B8B8B8;
+		opacity: 0.8;
+	}
+
+	&__textarea:focus {
+		border: 2px solid #3A607D;
+		outline: none;
+	}
+
+	&__checkbox>input {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	&__checkbox>span {
+		display: inline-flex;
+		align-items: center;
+		user-select: none;
+		font-family: Inter, sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		color: #1e496b;
+		cursor: pointer;
+	}
+
+	&__checkbox>span::before {
+		content: '';
+		display: inline-block;
+		width: 28px;
+		height: 28px;
+		border: 1.5px solid #b9bdc1;
+		box-sizing: border-box;
+		border-radius: 5px;
+		margin: 0 12px 0 0;
+		cursor: pointer;
+		flex-shrink: 0;
+		flex-grow: 0;
+		background: #fff no-repeat center center;
+		background-size: 50% 50%;
+	}
+	&__checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+		border-color: #b3d7ff;
+	}
+	&__checkbox>input:not(:disabled):active+span::before {
+		background-color: #b3d7ff;
+		border-color: #b3d7ff;
+	}
+	&__checkbox>input:checked+span::before {
+		background-image: url("/img/flag.svg");
+		background-color: #F27480;
+		box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+		border-radius: 3px;
+	}
+}

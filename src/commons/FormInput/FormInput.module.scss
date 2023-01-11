@@ -1,0 +1,129 @@
+@import "../../constants/globalConstants";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+  .formLabel {
+		display: block;
+		width: 100%!important;
+		max-width: 430px;
+		text-align: left;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 16px;
+
+		color: red;
+		margin: 30px 0 8px;
+  }
+
+  .formLabelRequired {
+		display: block;
+		width: 100%;
+		max-width: 430px;
+		text-align: left;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 16px;
+
+		color: #1E496B;
+		margin: 30px 0 8px;
+  }
+
+
+.formError {
+	box-sizing: border-box;
+	margin: 5px 0  0 20px;
+	width: 100%;
+	height: 13px;
+	max-width: 430px;
+
+  white-space: nowrap;
+	color: $pink-color;
+	visibility: hidden;
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.formErrorVisible {
+	box-sizing: border-box;
+	margin: 5px 0  0 20px;
+	width: 100%;
+	height: 13px;
+	max-width: 430px;
+
+  white-space: nowrap;
+	color: $pink-color;
+	visibility: visible;
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.inputText {
+	width: 100%;
+	max-width: 430px;
+
+  outline: none;
+  color: $main-color;
+	padding: 0 20px!important;
+	height: 47px;
+
+	border: 2px solid #E8EAEC;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.inputTextError {
+	width: 100%;
+	max-width: 430px;
+
+  border: 2px solid #FF0000!important;
+  outline: none;
+  color: $main-color;
+	padding: 0 20px!important;
+	height: 47px;
+
+	border: 2px solid #E8EAEC;
+	box-sizing: border-box;
+	border-radius: 3px;
+	outline: none;
+}
+
+.inputTextError, .inputText::placeholder {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 47px;
+
+	color: rgba(126, 147, 168, 0.5);
+}
+
+.inputTextError, .inputText:focus {
+	border: 2px solid #007ad9;
+	outline: none;
+	box-shadow: none;
+}
+
+.redStar {
+	 color: #FF0000;
+ }

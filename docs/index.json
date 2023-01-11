@@ -1,0 +1,4671 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/App.test.js",
+    "content": "import React from 'react';\nimport { render } from '@testing-library/react';\nimport App from './App';\n\ntest('renders learn react link', () => {\n\tconst { getByText } = render(<App />);\n\tconst linkElement = getByText(/learn react/i);\n\texpect(linkElement).toBeInTheDocument();\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/App.test.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "file",
+    "name": "src/Helpers/dateToUrl.js",
+    "content": "/**\n * @desc function for making string from Date object\n * @param {object} date\n * @return {string}\n */\nconst dateToUrl = (date) => {\n\tconst month = date.getMonth() + 1;\n\tconst day = date.getDate();\n\tconst year = date.getFullYear();\n\treturn `${year}-${month}-${day}`;\n};\n\nexport default dateToUrl;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/Helpers/dateToUrl.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "dateToUrl",
+    "memberof": "src/Helpers/dateToUrl.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Helpers/dateToUrl.js~dateToUrl",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/Helpers/dateToUrl.js",
+    "importStyle": "dateToUrl",
+    "description": "function for making string from Date object",
+    "lineNumber": 6,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "date",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/Helpers/setCurrentRange.js",
+    "content": "/**\n * @desc function for showing currently displayed candidates\n * @param {number} page - current page of candidate's list\n * @param {number} totalCandidates\n * @param {number} tableSize\n * @returns {string} - range of currently displayed candidates\n */\n\nconst setCurrentRange = (page, totalCandidates, tableSize) => {\n\tif (!totalCandidates) return `${0}-${0}`;\n\tlet from;\n\tlet to;\n\tif (totalCandidates < 10) {\n\t\tfrom = 1;\n\t\tto = totalCandidates;\n\t} else if (page !== 0 && page !== Math.floor(totalCandidates / tableSize)) {\n\t\tfrom = page * tableSize + 1;\n\t\tto = page * tableSize + tableSize;\n\t} else if (page === Math.floor(totalCandidates / tableSize)) {\n\t\tfrom = page * tableSize + 1;\n\t\tto = totalCandidates;\n\t} else {\n\t\tfrom = 1;\n\t\tto = tableSize;\n\t}\n\treturn `${from}-${to}`;\n};\nexport default setCurrentRange;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/Helpers/setCurrentRange.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "setCurrentRange",
+    "memberof": "src/Helpers/setCurrentRange.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Helpers/setCurrentRange.js~setCurrentRange",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/Helpers/setCurrentRange.js",
+    "importStyle": "setCurrentRange",
+    "description": "function for showing currently displayed candidates",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} - range of currently displayed candidates"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": "current page of candidate's list"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "totalCandidates",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tableSize",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "range of currently displayed candidates"
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/Helpers/validators.js",
+    "content": "/**\n * @desc function for email validation\n * @param email\n * @returns {boolean}\n */\nconst validateEmail = (email) => {\n\tconst regexp = /^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$/;\n\treturn regexp.test(email);\n};\n\nexport default validateEmail;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/Helpers/validators.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "validateEmail",
+    "memberof": "src/Helpers/validators.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Helpers/validators.js~validateEmail",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/Helpers/validators.js",
+    "importStyle": "validateEmail",
+    "description": "function for email validation",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{boolean}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/Helpers/workDuration.js",
+    "content": "/**\n * @desc function for calculating candidate's job duration\n * @param jobs\n * @returns {string}\n */\nconst workDuration = (jobs) => {\n\tconst time = jobs.map((job) => job.period).reduce((acc, per) => acc + per, 0);\n\tlet duration;\n\tif (time === 0) duration = '';\n\tif (time === 1) duration = `${time} year`;\n\tif (time > 1) duration = `${time} years`;\n\treturn duration;\n};\n\nexport default workDuration;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/Helpers/workDuration.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "workDuration",
+    "memberof": "src/Helpers/workDuration.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Helpers/workDuration.js~workDuration",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/Helpers/workDuration.js",
+    "importStyle": "workDuration",
+    "description": "function for calculating candidate's job duration",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobs",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport { Provider } from 'react-redux';\nimport App from './App';\nimport 'primereact/resources/themes/nova-light/theme.css';\nimport 'primereact/resources/primereact.min.css';\nimport 'primeicons/primeicons.css';\nimport store from './store/store';\n\nReactDOM.render(\n\t<React.StrictMode>\n\t\t<Provider store={store}>\n\t\t\t<App />\n\t\t</Provider>\n\t</React.StrictMode>,\n\tdocument.getElementById('root'),\n);\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/setupTests.js",
+    "content": "// jest-dom adds custom jest matchers for asserting on DOM nodes.\n// allows you to do things like:\n// expect(element).toHaveTextContent(/react/i)\n// learn more: https://github.com/testing-library/jest-dom\nimport '@testing-library/jest-dom/extend-expect';\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/setupTests.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/store/actions/calendars.js",
+    "content": "import axios from 'axios';\nimport i18n from 'i18n-js';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport {\n\tMAX_CALENDARS_ERROR,\n\tSET_ACTIVE_PERIODS,\n\tSET_CALENDAR_ACTIVE,\n\tSET_DURATION_VALID,\n\tSET_PERIOD,\n\tSET_PERIOD_TO_SHOW,\n\tSET_PERIOD_VALID,\n\tSET_PERIODS_LOADED,\n\tSET_POPUP_WITH_INFO,\n} from '../actionTypes/actionTypes';\n\n/**\n * @param {object} period\n * @return {{payload: *, type: string}}\n * @desc function for creating time period.\n */\nexport const setPeriod = (period) => ({ type: SET_PERIOD, payload: period });\n\n/**\n * @param {string | null} payload\n * @return {object} redux action\n * @desc function setting message of maximum created calendars\n */\nexport const setMaxCalendarError = (payload) => ({\n\ttype: MAX_CALENDARS_ERROR,\n\tpayload,\n});\n/**\n * @param {object} period\n * @desc function for handling calendar period\n */\nexport const handleCalendarPeriod = (period, handleClose) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\tstart: period.start,\n\t\t\tend: period.end,\n\t\t\tinterviewDuration: period.interviewDuration,\n\t\t\texemptHolidays: period.exemptHolidays,\n\t\t\tpreferredTimeList: period.preferredTimeList,\n\t\t};\n\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tawait axios.post(`${BASE_URL}/employers/calendars`, body, config);\n\t} catch (error) {\n\t\tconst { data, status } = error.response;\n\n\t\tif (status === 400) {\n\t\t\tif (data.message === 'Cant create more than 4 calendars!') {\n\t\t\t\tdispatch(setMaxCalendarError(i18n.t('calendar-popup.max-calendars')));\n\t\t\t} else {\n\t\t\t\tdispatch(setMaxCalendarError(data.message));\n\t\t\t}\n\t\t\thandleClose();\n\t\t}\n\t}\n};\n\n/**\n * @param {object} periods\n * @return {{payload: *, type: string}} redux action\n * @desc function to set periods to show on UI\n */\nexport const setPeriods = (periods) => ({\n\ttype: SET_ACTIVE_PERIODS,\n\tpayload: periods,\n});\n\n/**\n * @desc function for getting calendar periods from API\n */\nexport const handleCalendarPeriods = () => async (dispatch) => {\n\ttry {\n\t\tconst response = await axios.get(`${BASE_URL}/employers/calendars`);\n\t\tdispatch(setPeriods(response.data));\n\t\tdispatch({ type: SET_PERIODS_LOADED });\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n * @param {string} id\n * @desc function for deleting time period\n */\nexport const deletePeriod = (id) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\tcalendarId: id,\n\t\t};\n\n\t\tawait axios.delete(`${BASE_URL}/employers/deleteCalendar`, { data: body });\n\t\tawait dispatch(handleCalendarPeriods());\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n *\n * @desc function to activate/deactivate calendar\n * @param {boolean} payload\n * @return {{payload: *, type: string}} redux action\n */\nexport const setCalendarStatus = (payload) => ({\n\ttype: SET_CALENDAR_ACTIVE,\n\tpayload,\n});\n\n/**\n * @desc function for setting current visible time periods\n * @param {object} periods\n * @return {{payload: *, type: string}} redux action\n */\nexport const setPeriodsToShow = (periods) => ({\n\ttype: SET_PERIOD_TO_SHOW,\n\tpayload: periods,\n});\n\n/**\n * @desc function for validation time period\n * @param {boolean} payload\n * @return {{payload: *, type: string}} redux action\n */\nexport const setPeriodValid = (payload) => ({\n\ttype: SET_PERIOD_VALID,\n\tpayload,\n});\n\n/**\n * @desc function for validation duration of interview\n * @param {boolean} payload\n * @return {{payload: *, type: string}} redux action\n */\nexport const setDurationValid = (payload) => ({\n\ttype: SET_DURATION_VALID,\n\tpayload,\n});\n\n/**\n * @desc function for showing calendar popup\n * @return {object} redux action\n */\nexport const setPopupWithInfo = () => ({\n\ttype: SET_POPUP_WITH_INFO,\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/calendars.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "setPeriod",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setPeriod",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setPeriod}",
+    "description": "function for creating time period.",
+    "lineNumber": 21,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "period",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "setMaxCalendarError",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setMaxCalendarError",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setMaxCalendarError}",
+    "description": "function setting message of maximum created calendars",
+    "lineNumber": 28,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "handleCalendarPeriod",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~handleCalendarPeriod",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{handleCalendarPeriod}",
+    "description": "function for handling calendar period",
+    "lineNumber": 36,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "period",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "setPeriods",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setPeriods",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setPeriods}",
+    "description": "function to set periods to show on UI",
+    "lineNumber": 72,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "periods",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "handleCalendarPeriods",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~handleCalendarPeriods",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{handleCalendarPeriods}",
+    "description": "function for getting calendar periods from API",
+    "lineNumber": 80,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "deletePeriod",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~deletePeriod",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{deletePeriod}",
+    "description": "function for deleting time period",
+    "lineNumber": 94,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "setCalendarStatus",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setCalendarStatus",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setCalendarStatus}",
+    "description": "function to activate/deactivate calendar",
+    "lineNumber": 113,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "setPeriodsToShow",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setPeriodsToShow",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setPeriodsToShow}",
+    "description": "function for setting current visible time periods",
+    "lineNumber": 123,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "periods",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "setPeriodValid",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setPeriodValid",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setPeriodValid}",
+    "description": "function for validation time period",
+    "lineNumber": 133,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "setDurationValid",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setDurationValid",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setDurationValid}",
+    "description": "function for validation duration of interview",
+    "lineNumber": 143,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "setPopupWithInfo",
+    "memberof": "src/store/actions/calendars.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/calendars.js~setPopupWithInfo",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/calendars.js",
+    "importStyle": "{setPopupWithInfo}",
+    "description": "function for showing calendar popup",
+    "lineNumber": 152,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/store/actions/candidatesFilters.js",
+    "content": "import axios from 'axios';\nimport {\n\tFILTERED_CANDIDATES,\n\tSET_AGE_FILTER,\n\tSET_CANDIDATES_PAGE,\n\tSET_COUNTRIES_FILTERS,\n\tSET_REQUEST_BODY,\n\tSET_SELECTED_USER,\n\tSET_TOTAL_CANDIDATES,\n\tSET_WITH_REQUESTED_DOCS,\n\tSET_WITH_DETAILED_INFO,\n\tSET_ERROR_MESSAGE,\n\tSET_DOCUMENTS_CATEGORIES,\n\tSET_CANDIDATE_TRANSLATED_CV,\n\tSET_WITH_REQUEST_DOCS_CANDIDATES,\n\tSET_CV_TRANSLATED,\n\tTOGGLE_SELECTED_ALL,\n\tSET_ARE_LOADED,\n} from '../actionTypes/actionTypes';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport { setLoaderDisabled } from './mainActions';\nimport { setErrorMessage as setErrorMessageAPI } from './user';\n\n/**\n * @desc function for apply filtered candidates\n * @param {array} candidates\n * @returns {object} redux action\n */\nexport const setFilteredCandidates = (candidates) => ({ type: FILTERED_CANDIDATES, payload: candidates });\n\n/**\n * @desc function for changing current page in table\n * @param {number} page\n * @returns {object} redux action\n */\nexport const setCurrentPage = (page) => ({ type: SET_CANDIDATES_PAGE, payload: page });\n\n/**\n * @desc function for creating request body\n * @param {object} body\n * @returns {object} redux action\n */\nexport const setRequestBody = (body) => ({ type: SET_REQUEST_BODY, payload: body });\n\n/**\n * @desc function for setting total amount of candidates\n * @param {number} quantity\n * @returns {object} redux action\n */\nexport const setTotalCandidates = (quantity) => ({ type: SET_TOTAL_CANDIDATES, payload: quantity });\n\n/**\n * @desc function for setting selected users\n * @param {array} users\n * @returns {object} redux action\n */\nexport const setSelectedUsers = (users) => ({ type: SET_SELECTED_USER, payload: users });\n\n/**\n * @desc function for setting users with documents selected\n * @param {boolean} payload\n * @returns {object} redux action\n */\nexport const setWithRequestedDocs = (payload) => ({ type: SET_WITH_REQUESTED_DOCS, payload });\n\n/**\n * @desc function for setting users with detailed info\n * @param {boolean} payload\n * @returns {object} redux action\n */\nexport const setWithDetailedInfo = (payload) => ({ type: SET_WITH_DETAILED_INFO, payload });\n\n/**\n * @desc function for setting countries filters\n * @param {array} countries\n * @returns {object} redux action\n */\nexport const setCountriesFilters = (countries) => ({ type: SET_COUNTRIES_FILTERS, payload: countries });\n\n/**\n * @desc function for applying error message\n * @param {string} message - error message from request\n * @returns {object} redux action\n */\nexport const setErrorMessage = (message) => ({ type: SET_ERROR_MESSAGE, payload: message });\n\n/**\n * @desc function for applying with request docs candidates\n * @param {string} quantity - quantity with request docs candidates\n * @returns {object} redux action\n */\nexport const setWithRequestDocsCandidates = (quantity) => ({ type: SET_WITH_REQUEST_DOCS_CANDIDATES, payload: quantity });\n\n/**\n * @desc function for disabling loader\n * @param {boolean} payload\n * @returns {object} redux action\n */\nexport const setAreLoaded = (payload) => ({\n\ttype: SET_ARE_LOADED,\n\tpayload,\n});\n\n/**\n * @desc request for searching all available candidates\n * @param {object} body\n */\nexport const searchCandidates = (body) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.post(`${BASE_URL}/employers/candidates/`, body, config);\n\t\tdispatch(setFilteredCandidates(response.data.data));\n\t\tdispatch(setTotalCandidates(response.data.total));\n\t\tdispatch(setWithRequestDocsCandidates(response.data.fulfilledRequests));\n\t} catch (err) {\n\t\tdispatch(setAreLoaded(true));\n\t\tconsole.error(err.message);\n\t\tdispatch(setErrorMessageAPI('Schlechte Internetverbindung'));\n\t}\n};\n\n/**\n * @desc request for searching all available candidates for Owner\n * @param {object} body\n */\nexport const searchCandidatesOwner = (body) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.post(`${BASE_URL}/owners/candidates/`, body, config);\n\t\tdispatch(setFilteredCandidates(response.data.data));\n\t\tdispatch(setTotalCandidates(response.data.total));\n\t} catch (err) {\n\t\tdispatch(setAreLoaded(true));\n\t\tconsole.error(err.message);\n\t\tdispatch(setErrorMessageAPI('Schlechte Internetverbindung'));\n\t}\n};\n\n/**\n * @desc function for inviting selected candidates for interview\n * @param {object} body of request\n */\nexport const inviteForInterview = (body) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tawait axios.post(`${BASE_URL}/employers/inviteForInterview/`, body, config);\n\t} catch (err) {\n\t\tconst { message } = err.response.data;\n\t\tdispatch(setErrorMessage(message));\n\t\tconsole.error(err.message);\n\t}\n};\n\n/**\n * @desc request for countries list from the server\n * @return {array} list of countries\n */\nexport const getCountryFilters = async () => {\n\ttry {\n\t\tconst response = await axios.get(`${BASE_URL}/data/countries`);\n\t\treturn response.data;\n\t} catch (err) {\n\t\tconsole.error(err.message);\n\t\treturn err.message;\n\t}\n};\n\n/**\n * @desc function for setting age filter\n * @param {array} range\n * @returns {object} redux action\n */\nexport const setAgeFilter = (range) => ({ type: SET_AGE_FILTER, payload: range });\n\n/**\n * @desc function for setting documents categories to redux\n * @param {object} categoriesFromAPI\n * @return {{payload: *, type: string}} redux action\n */\nexport const setDocumentsCategories = (categoriesFromAPI) => ({ type: SET_DOCUMENTS_CATEGORIES, payload: categoriesFromAPI });\n\n/**\n * @desc function for getting documents categories from API\n */\nexport const getDocumentsCategories = () => async (dispatch) => {\n\ttry {\n\t\tconst response = await axios.get(`${BASE_URL}/data/categories`);\n\t\tdispatch(setDocumentsCategories(response.data));\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n * @desc function for downloading candidate's documents by category\n * @param {string} categoryId\n * @param {string} userId\n * @return {Promise<void>}\n */\nexport const getDocumentsArchiveByCategory = async (categoryId, userId) => {\n\ttry {\n\t\tconst config = {\n\t\t\tresponseType: 'blob',\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'multipart/form-data',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.get(`${BASE_URL}/candidates/documents?category_id=${categoryId}&candidate_id=${userId}`, config);\n\t\tconst blob = new Blob([response.data], { type: 'application/zip' });\n\t\tconst url = window.URL.createObjectURL(blob);\n\t\tconst fileName = response.headers['content-disposition'].split('=')[1];\n\t\tconst link = document.createElement('a');\n\t\tlink.setAttribute('download', `${fileName.slice(1, fileName.length - 1)}`);\n\t\tlink.href = url;\n\t\tdocument.body.appendChild(link);\n\t\tlink.click();\n\t\tlink.parentNode.removeChild(link);\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n * @desc function for downloading all candidate's documents\n * @param {string} userId\n * @return {Promise<boolean>}\n */\nexport const getAllDocuments = async (userId) => {\n\ttry {\n\t\tconst config = {\n\t\t\tresponseType: 'blob',\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'multipart/form-data',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.get(`${BASE_URL}/candidates/documents/all?candidate_id=${userId}`, config);\n\t\tconst blob = new Blob([response.data], { type: 'application/zip' });\n\t\tconst url = window.URL.createObjectURL(blob);\n\t\tconst link = document.createElement('a');\n\t\tlink.href = url;\n\t\tconst fileName = response.headers['content-disposition'].split('=')[1];\n\t\tlink.setAttribute('download', `${fileName.slice(1, fileName.length - 1)}`);\n\t\tdocument.body.appendChild(link);\n\t\tlink.click();\n\t\tlink.parentNode.removeChild(link);\n\t\treturn true;\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t\treturn false;\n\t}\n};\n\n/**\n * @desc function for requesting additionall documents from candidate\n * @param {object} request\n * @param {string} id\n */\nexport const sendDocumentsRequest = (request, id) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tconst body = {\n\t\t\tcategoryIdList: request.categoryIdList,\n\t\t\tnote: request.note,\n\t\t};\n\n\t\taxios.post(`${BASE_URL}/candidates/${id}/documents/request`, body, config);\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t\tdispatch(setLoaderDisabled());\n\t}\n};\n\n/**\n * @desc function for set translated CV for current candidate\n * @param {object} data\n * @returns {object} redux action\n */\nexport const setCandidateTranslatedCV = (data) => ({\n\ttype: SET_CANDIDATE_TRANSLATED_CV,\n\tpayload: data,\n});\n\n/**\n * @desc function for managing CV translation process\n * @param {boolean} payload\n * @return {{payload: *, type: string}} redux action\n */\nexport const setCVTranslated = (payload) => ({\n\ttype: SET_CV_TRANSLATED,\n\tpayload,\n});\n\n/**\n * @desc function for get translated CV for current candidate from back\n * @param {string} id\n * @return {Promise<void>}\n */\nexport const getCandidateTranslatedCV = (id) => async (dispatch) => {\n\ttry {\n\t\tconst response = await axios.get(`${BASE_URL}/candidates/${id}/translated`);\n\t\tawait dispatch(setCandidateTranslatedCV(response.data));\n\t\tdispatch(setCVTranslated(true));\n\t} catch (err) {\n\t\tconsole.warn(err);\n\t}\n};\n\n/**\n * @desc function for selecting all candidates\n * @param {boolean} payload\n * @returns {{payload: *, type: string}} redux action\n */\nexport const toggleCandidates = (payload) => ({\n\ttype: TOGGLE_SELECTED_ALL,\n\tpayload,\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "setFilteredCandidates",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setFilteredCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setFilteredCandidates}",
+    "description": "function for apply filtered candidates",
+    "lineNumber": 29,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "candidates",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "setCurrentPage",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setCurrentPage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setCurrentPage}",
+    "description": "function for changing current page in table",
+    "lineNumber": 36,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "setRequestBody",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setRequestBody",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setRequestBody}",
+    "description": "function for creating request body",
+    "lineNumber": 43,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "setTotalCandidates",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setTotalCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setTotalCandidates}",
+    "description": "function for setting total amount of candidates",
+    "lineNumber": 50,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "function",
+    "name": "setSelectedUsers",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setSelectedUsers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setSelectedUsers}",
+    "description": "function for setting selected users",
+    "lineNumber": 57,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "users",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "setWithRequestedDocs",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setWithRequestedDocs",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setWithRequestedDocs}",
+    "description": "function for setting users with documents selected",
+    "lineNumber": 64,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "setWithDetailedInfo",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setWithDetailedInfo",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setWithDetailedInfo}",
+    "description": "function for setting users with detailed info",
+    "lineNumber": 71,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "setCountriesFilters",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setCountriesFilters",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setCountriesFilters}",
+    "description": "function for setting countries filters",
+    "lineNumber": 78,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "countries",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "setErrorMessage",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setErrorMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setErrorMessage}",
+    "description": "function for applying error message",
+    "lineNumber": 85,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "error message from request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "setWithRequestDocsCandidates",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setWithRequestDocsCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setWithRequestDocsCandidates}",
+    "description": "function for applying with request docs candidates",
+    "lineNumber": 92,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": "quantity with request docs candidates"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "name": "setAreLoaded",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setAreLoaded",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setAreLoaded}",
+    "description": "function for disabling loader",
+    "lineNumber": 99,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "searchCandidates",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~searchCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{searchCandidates}",
+    "description": "request for searching all available candidates",
+    "lineNumber": 108,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "searchCandidatesOwner",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~searchCandidatesOwner",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{searchCandidatesOwner}",
+    "description": "request for searching all available candidates for Owner",
+    "lineNumber": 130,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "inviteForInterview",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~inviteForInterview",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{inviteForInterview}",
+    "description": "function for inviting selected candidates for interview",
+    "lineNumber": 151,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": "of request"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "getCountryFilters",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~getCountryFilters",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{getCountryFilters}",
+    "description": "request for countries list from the server",
+    "lineNumber": 170,
+    "return": {
+      "nullable": null,
+      "types": [
+        "array"
+      ],
+      "spread": false,
+      "description": "list of countries"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "setAgeFilter",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setAgeFilter",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setAgeFilter}",
+    "description": "function for setting age filter",
+    "lineNumber": 185,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "range",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "setDocumentsCategories",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setDocumentsCategories",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setDocumentsCategories}",
+    "description": "function for setting documents categories to redux",
+    "lineNumber": 192,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "categoriesFromAPI",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "getDocumentsCategories",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~getDocumentsCategories",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{getDocumentsCategories}",
+    "description": "function for getting documents categories from API",
+    "lineNumber": 197,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "getDocumentsArchiveByCategory",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~getDocumentsArchiveByCategory",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{getDocumentsArchiveByCategory}",
+    "description": "function for downloading candidate's documents by category",
+    "lineNumber": 212,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "categoryId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "userId",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<void>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "getAllDocuments",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~getAllDocuments",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{getAllDocuments}",
+    "description": "function for downloading all candidate's documents",
+    "lineNumber": 240,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "userId",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<boolean>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "sendDocumentsRequest",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~sendDocumentsRequest",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{sendDocumentsRequest}",
+    "description": "function for requesting additionall documents from candidate",
+    "lineNumber": 270,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "request",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "setCandidateTranslatedCV",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setCandidateTranslatedCV",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setCandidateTranslatedCV}",
+    "description": "function for set translated CV for current candidate",
+    "lineNumber": 295,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "setCVTranslated",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~setCVTranslated",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{setCVTranslated}",
+    "description": "function for managing CV translation process",
+    "lineNumber": 305,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "getCandidateTranslatedCV",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~getCandidateTranslatedCV",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{getCandidateTranslatedCV}",
+    "description": "function for get translated CV for current candidate from back",
+    "lineNumber": 315,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<void>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "toggleCandidates",
+    "memberof": "src/store/actions/candidatesFilters.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/candidatesFilters.js~toggleCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/candidatesFilters.js",
+    "importStyle": "{toggleCandidates}",
+    "description": "function for selecting all candidates",
+    "lineNumber": 330,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{payload: *, type: string}} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/store/actions/employersList.js",
+    "content": "import axios from 'axios';\nimport {\n\tSET_EMPLOYERS_PAGE,\n\tSET_EMPLOYERS,\n\tSET_EMPLOYERS_REQUEST_BODY,\n\tSET_SELECTED_EMPLOYER,\n\tSET_TOTAL_EMPLOYERS,\n\tSET_HIRED_FILTER,\n\tSET_INTERVIEWED_FILTER,\n\tSET_REGISTRATION_FILTER,\n\tSET_ARE_EMPLOYERS_LOADED,\n\tSET_QUERY,\n\tDESELECT_ALL_EMPLOYERS,\n\tTOGGLE_SELECT_ALL_EMPLOYERS,\n} from '../actionTypes/actionTypes';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport { setAreLoaded } from './candidatesFilters';\nimport { setErrorMessage as setErrorMessageAPI } from './user';\n\n/**\n * @desc function for setting employers\n * @param {object} employers\n * @return {{payload: *, type: string}} redux action\n */\nexport const setEmployers = (employers) => ({\n\ttype: SET_EMPLOYERS,\n\tpayload: employers,\n});\n\n/**\n * @desc function for setting quantity of employers\n * @param {number} quantity\n * @return {{payload: *, type: string}} redux action\n */\nexport const setTotalEmployers = (quantity) => ({\n\ttype: SET_TOTAL_EMPLOYERS,\n\tpayload: quantity,\n});\n\n/**\n * @desc function for setting request body for API request\n * @param {object} body\n * @return {{payload: *, type: string}} redux action\n */\nexport const setEmployersRequestBody = (body) => ({\n\ttype: SET_EMPLOYERS_REQUEST_BODY,\n\tpayload: body,\n});\n\n/**\n * @desc function for selecting employers\n * @param users\n * @return {{payload: *, type: string}} redux action\n */\nexport const setSelectedEmployers = (users) => ({\n\ttype: SET_SELECTED_EMPLOYER,\n\tpayload: users,\n});\n\n/**\n * @desc function for setting current page on employer page\n * @param {number} page\n * @return {{payload: *, type: string}} redux action\n */\nexport const setCurrentEmployersPage = (page) => ({\n\ttype: SET_EMPLOYERS_PAGE,\n\tpayload: page,\n});\n\n/**\n * @desc function for API request to search employer\n * @param {object} body\n */\nexport const searchEmployers = (body) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.post(`${BASE_URL}/owners/employers/`, body, config);\n\t\tdispatch(setEmployers(response.data.data));\n\t\tdispatch(setTotalEmployers(response.data.total));\n\t} catch (err) {\n\t\tdispatch(setAreLoaded(true));\n\t\tconsole.error(err.message);\n\t\tdispatch(setErrorMessageAPI('Schlechte Internetverbindung'));\n\t}\n};\n\n/**\n * @desc function for changing status of selected employer\n * @param {object} body of request\n */\nexport const changeEmployerStatus = async (body) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tawait axios.patch(`${BASE_URL}/owners/setEmployerStatus/`, body, config);\n\t} catch (err) {\n\t\tconsole.error(err.message);\n\t}\n};\n\n/**\n * @desc function for changing hired filter\n * @param {array} range\n * @returns {object} function for changing hired filter\n */\nexport const setHiredFilter = (range) => ({\n\ttype: SET_HIRED_FILTER,\n\tpayload: range,\n});\n\n/**\n * @desc function for changing interviewed filter\n * @param {array} range\n * @returns {object} redux action\n */\nexport const setInterviewedFilter = (range) => ({\n\ttype: SET_INTERVIEWED_FILTER,\n\tpayload: range,\n});\n\n/**\n * @desc set registration date filter\n * @param {string} name\n * @param {object} date\n * @returns {object} redux action\n */\nexport const setRegistrationFilter = (name, date) => ({\n\ttype: SET_REGISTRATION_FILTER,\n\tname,\n\tpayload: date,\n});\n\n/**\n * @desc function to check if employers are loaded from API\n * @return {{type: string}} redux action\n */\nexport const setEmployersLoaded = () => ({\n\ttype: SET_ARE_EMPLOYERS_LOADED,\n});\n\n/**\n * @desc function for setting search query\n * @param {string} query\n * @return {{payload: *, type: string}} redux action\n */\nexport const setSearchQuery = (query) => ({\n\ttype: SET_QUERY,\n\tpayload: query,\n});\n\n/**\n * @desc function for unselecting all employers\n * @return {{type: string}} redux action\n */\nexport const setEmployersDeselected = () => ({\n\ttype: DESELECT_ALL_EMPLOYERS,\n});\n\n/**\n * @desc function for selecting all employers\n * @param {boolean} payload\n * @returns {{payload: *, type: string}} redux action\n */\nexport const toggleEmployers = (payload) => ({\n\ttype: TOGGLE_SELECT_ALL_EMPLOYERS,\n\tpayload,\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/employersList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "setEmployers",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setEmployers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setEmployers}",
+    "description": "function for setting employers",
+    "lineNumber": 25,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "employers",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "setTotalEmployers",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setTotalEmployers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setTotalEmployers}",
+    "description": "function for setting quantity of employers",
+    "lineNumber": 35,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "setEmployersRequestBody",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setEmployersRequestBody",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setEmployersRequestBody}",
+    "description": "function for setting request body for API request",
+    "lineNumber": 45,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "setSelectedEmployers",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setSelectedEmployers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setSelectedEmployers}",
+    "description": "function for selecting employers",
+    "lineNumber": 55,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "users",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "setCurrentEmployersPage",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setCurrentEmployersPage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setCurrentEmployersPage}",
+    "description": "function for setting current page on employer page",
+    "lineNumber": 65,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "searchEmployers",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~searchEmployers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{searchEmployers}",
+    "description": "function for API request to search employer",
+    "lineNumber": 74,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "changeEmployerStatus",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~changeEmployerStatus",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{changeEmployerStatus}",
+    "description": "function for changing status of selected employer",
+    "lineNumber": 95,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": "of request"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "setHiredFilter",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setHiredFilter",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setHiredFilter}",
+    "description": "function for changing hired filter",
+    "lineNumber": 113,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} function for changing hired filter"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "range",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "function for changing hired filter"
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "setInterviewedFilter",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setInterviewedFilter",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setInterviewedFilter}",
+    "description": "function for changing interviewed filter",
+    "lineNumber": 123,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "range",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "setRegistrationFilter",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setRegistrationFilter",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setRegistrationFilter}",
+    "description": "set registration date filter",
+    "lineNumber": 134,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "date",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "setEmployersLoaded",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setEmployersLoaded",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setEmployersLoaded}",
+    "description": "function to check if employers are loaded from API",
+    "lineNumber": 144,
+    "return": {
+      "nullable": null,
+      "types": [
+        "{type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "setSearchQuery",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setSearchQuery",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setSearchQuery}",
+    "description": "function for setting search query",
+    "lineNumber": 153,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "query",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "setEmployersDeselected",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~setEmployersDeselected",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{setEmployersDeselected}",
+    "description": "function for unselecting all employers",
+    "lineNumber": 162,
+    "return": {
+      "nullable": null,
+      "types": [
+        "{type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 111,
+    "kind": "function",
+    "name": "toggleEmployers",
+    "memberof": "src/store/actions/employersList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/employersList.js~toggleEmployers",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/employersList.js",
+    "importStyle": "{toggleEmployers}",
+    "description": "function for selecting all employers",
+    "lineNumber": 171,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{payload: *, type: string}} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "file",
+    "name": "src/store/actions/mainActions.js",
+    "content": "import axios from 'axios';\nimport { BASE_URL } from '../../constants/mainConstants';\n\nimport {\n\tPDF_REF,\n\tUSER_TYPE,\n\tTOGGLE_MODAL,\n\tTOKEN,\n\tUSER_ID,\n\tSET_LANGUAGE,\n\tACTIVATE_LOADER,\n\tDEACTIVATE_LOADER,\n} from '../actionTypes/actionTypes';\n\naxios.interceptors.request.use(\n\tasync (request) => {\n\t\tconst token = await localStorage.getItem(TOKEN);\n\n\t\tif (request.url !== `${BASE_URL}/auth` && request.url !== `${BASE_URL}/auth/login` && request.url !== `${BASE_URL}/auth/setPassword`) {\n\t\t\trequest.headers.Authorization = `Bearer ${token}`;\n\t\t}\n\n\t\treturn request;\n\t},\n\t(err) => {\n\t\tconsole.error(err);\n\t},\n);\n\naxios.interceptors.response.use(\n\t(response) => {\n\t\treturn response;\n\t},\n\tasync (error) => {\n\t\tif (error.response.status === 401 || error.response.status === 403) {\n\t\t\tlocalStorage.removeItem(TOKEN);\n\t\t\twindow.location.href = '/';\n\t\t}\n\n\t\t// return Error object with Promise\n\t\treturn Promise.reject(error);\n\t},\n);\n\n/**\n * @param {string} id\n * @return {object} redux action\n * @desc function to writing user token to localStorage\n */\nconst setToken = (token) => {\n\tlocalStorage.setItem(TOKEN, token);\n\n\treturn { type: TOKEN, payload: token };\n};\n\n/**\n * @param {string} id\n * @return {object} redux action\n * @desc function to write user id to localStorage\n */\nconst setUserId = (id) => {\n\tlocalStorage.setItem(USER_ID, id);\n\n\treturn { type: USER_ID, payload: id };\n};\n\n/**\n * @param {string} role\n * @return {object} redux action\n * @desc function to write user role to localStorage\n */\nconst setUserType = (role) => {\n\tif (role === 'owner') {\n\t\tlocalStorage.setItem(USER_TYPE, 'admin');\n\t} else {\n\t\tlocalStorage.setItem(USER_TYPE, role);\n\t}\n\n\treturn { type: USER_TYPE, payload: role };\n};\n\n/**\n * @param {string} email\n * @param {string} password\n * @desc function for handling user authorization\n */\nexport const handleLogin = ({ email, password }) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\temail,\n\t\t\tpassword,\n\t\t};\n\t\tconst config = {\n\t\t\theader: {\n\t\t\t\t'content-type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tconst response = await axios.post(`${BASE_URL}/auth/login`, body, config);\n\t\tconst { token, id, role } = response.data;\n\t\tdispatch(setToken(token));\n\t\tdispatch(setUserId(id));\n\t\tdispatch(setUserType(role));\n\n\t\treturn response.data;\n\t} catch (error) {\n\t\treturn false;\n\t}\n};\n\n/**\n * @desc function for getting user documents from API\n * @param {string} id\n * @return {Promise<* | void>}\n */\nexport const getCandidateFiles = (id) => {\n\treturn axios\n\t\t.get(`${BASE_URL}/documents?candidateId=${id}`)\n\t\t.then(({ data }) => data)\n\t\t.catch((err) => console.warn(err));\n};\n\n/**\n * @desc function for downloading users documents in excel format\n * @param id\n * @return {Promise<* | void>}\n */\n\nexport const getCandidatesExcel = (id) => {\n\treturn axios\n\t\t.get(`${BASE_URL}/candidates/excel-all-data-report-${id}`)\n\t\t.then(({ data }) => data)\n\t\t.catch((err) => console.warn(err));\n};\n\n/**\n * @desc function for toggle modal in header\n * @param {boolean} boolean\n * @return {{payload: *, type: string}} redux action\n */\nexport const setModalIsOpen = (boolean) => ({ type: TOGGLE_MODAL, payload: boolean });\n\n/**\n * @desc function for setting pdf ref\n * @param ref\n * @return {{payload: *, type: string}} redux action\n */\nexport const setPdfRef = (ref) => ({ type: PDF_REF, payload: ref });\n\n/**\n * @desc function for setting app default language\n * @param language\n * @return {{payload: *, type: string}} redux action\n */\nexport const setLanguage = (language) => ({\n\ttype: SET_LANGUAGE,\n\tpayload: language,\n});\n\n/**\n * @desc function for loader activating\n * @return {object} redux action\n */\nexport const setLoaderActive = () => ({\n\ttype: ACTIVATE_LOADER,\n});\n\n/**\n * @desc function for loader deactivating\n * @return {object} redux action\n */\nexport const setLoaderDisabled = () => ({\n\ttype: DEACTIVATE_LOADER,\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/mainActions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 113,
+    "kind": "function",
+    "name": "setToken",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setToken",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": null,
+    "description": "function to writing user token to localStorage",
+    "lineNumber": 50,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "setUserId",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setUserId",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": null,
+    "description": "function to write user id to localStorage",
+    "lineNumber": 61,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "function",
+    "name": "setUserType",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setUserType",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": null,
+    "description": "function to write user role to localStorage",
+    "lineNumber": 72,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "role",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "function",
+    "name": "handleLogin",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~handleLogin",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{handleLogin}",
+    "description": "function for handling user authorization",
+    "lineNumber": 87,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "function",
+    "name": "getCandidateFiles",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~getCandidateFiles",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{getCandidateFiles}",
+    "description": "function for getting user documents from API",
+    "lineNumber": 116,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<* | void>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "getCandidatesExcel",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~getCandidatesExcel",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{getCandidatesExcel}",
+    "description": "function for downloading users documents in excel format",
+    "lineNumber": 129,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<* | void>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "setModalIsOpen",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setModalIsOpen",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{setModalIsOpen}",
+    "description": "function for toggle modal in header",
+    "lineNumber": 141,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "boolean",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "setPdfRef",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setPdfRef",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{setPdfRef}",
+    "description": "function for setting pdf ref",
+    "lineNumber": 148,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ref",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "function",
+    "name": "setLanguage",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setLanguage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{setLanguage}",
+    "description": "function for setting app default language",
+    "lineNumber": 155,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "language",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "setLoaderActive",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setLoaderActive",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{setLoaderActive}",
+    "description": "function for loader activating",
+    "lineNumber": 164,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "setLoaderDisabled",
+    "memberof": "src/store/actions/mainActions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/mainActions.js~setLoaderDisabled",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/mainActions.js",
+    "importStyle": "{setLoaderDisabled}",
+    "description": "function for loader deactivating",
+    "lineNumber": 172,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "name": "src/store/actions/pendingCandidates.js",
+    "content": "import axios from 'axios';\nimport {\n\tSET_PENDING_CANDIDATES,\n\tSET_PENDING_CANDIDATES_PAGE,\n\tSET_PENDING_REQUEST_BODY,\n\tSET_SELECTED_PENDING_CANDIDATE,\n\tSET_TOTAL_PENDING_CANDIDATES,\n\tSET_WITH_REQUEST_DOCS_PENDING_CANDIDATES,\n\tSET_WITH_PENDING_REQUESTED_DOCS,\n\tTOGGLE_ALL_PENDING_SELECTED,\n} from '../actionTypes/actionTypes';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport { setErrorMessage as setErrorMessageAPI } from './user';\nimport { setAreLoaded } from './candidatesFilters';\n\n/**\n * @desc function for setting pending candidates\n * @param {array} candidates\n * @returns {object} redux action\n */\nexport const setPendingCandidates = (candidates) => ({ type: SET_PENDING_CANDIDATES, payload: candidates });\n\n/**\n * @desc function for setting pending users with documents selected\n * @param {boolean} payload\n * @returns {object} redux action\n */\nexport const setWithPendingRequestedDocs = (payload) => ({ type: SET_WITH_PENDING_REQUESTED_DOCS, payload });\n\n/**\n * @desc function for setting total amount of pending candidates\n * @param {number} quantity\n * @returns {object} redux action\n */\nexport const setTotalPendingCandidates = (quantity) => ({ type: SET_TOTAL_PENDING_CANDIDATES, payload: quantity });\n\n/**\n * @desc function for crating request body for APi\n * @param {object} body\n * @returns {object} redux action\n */\nexport const setPendingRequestBody = (body) => ({ type: SET_PENDING_REQUEST_BODY, payload: body });\n\n/**\n * @desc function for selecting candidates\n * @param {array} users\n * @returns {object} redux action\n */\nexport const setSelectedPendingCandidates = (users) => ({ type: SET_SELECTED_PENDING_CANDIDATE, payload: users });\n\n/**\n * @desc function for setting current page in table\n * @param {number} page\n * @returns {object} redux action\n */\nexport const setCurrentPendingPage = (page) => ({ type: SET_PENDING_CANDIDATES_PAGE, payload: page });\n\n/**\n * @desc function for applying with request docs pending candidates\n * @param {string} quantity - quantity with request docs pending candidates\n * @returns {object} redux action\n */\nexport const setWithRequestDocsPendingCandidates = (quantity) => ({ type: SET_WITH_REQUEST_DOCS_PENDING_CANDIDATES, payload: quantity });\n\n/**\n * @desc request for searching all pending candidates\n * @param {object} body\n * @returns {object} list of pending candidates\n */\nexport const searchPendingCandidates = (body) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tconst response = await axios.post(`${BASE_URL}/employers/pending/`, body, config);\n\t\tdispatch(setPendingCandidates(response.data.data));\n\t\tdispatch(setTotalPendingCandidates(response.data.total));\n\t\tdispatch(setWithRequestDocsPendingCandidates(response.data.fulfilledRequests));\n\t} catch (err) {\n\t\tdispatch(setAreLoaded(true));\n\t\tconsole.error(err.message);\n\t\tdispatch(setErrorMessageAPI('Schlechte Internetverbindung'));\n\t}\n};\n\n/**\n * @desc function for changing status of selected candidates\n * @param {object} body of request\n */\nexport const changeCandidateStatus = async (body) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tawait axios.patch(`${BASE_URL}/employers/resolveCandidates/`, body, config);\n\t} catch (err) {\n\t\tconsole.error(err.message);\n\t}\n};\n\n/**\n * @desc function for selecting all pending candidates\n * @param {boolean} payload\n * @returns {{payload: *, type: string}} redux action\n */\nexport const toggleAllPending = (payload) => ({\n\ttype: TOGGLE_ALL_PENDING_SELECTED,\n\tpayload,\n});\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 125,
+    "kind": "function",
+    "name": "setPendingCandidates",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setPendingCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setPendingCandidates}",
+    "description": "function for setting pending candidates",
+    "lineNumber": 21,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "candidates",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "function",
+    "name": "setWithPendingRequestedDocs",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setWithPendingRequestedDocs",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setWithPendingRequestedDocs}",
+    "description": "function for setting pending users with documents selected",
+    "lineNumber": 28,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "function",
+    "name": "setTotalPendingCandidates",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setTotalPendingCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setTotalPendingCandidates}",
+    "description": "function for setting total amount of pending candidates",
+    "lineNumber": 35,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "function",
+    "name": "setPendingRequestBody",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setPendingRequestBody",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setPendingRequestBody}",
+    "description": "function for crating request body for APi",
+    "lineNumber": 42,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "function",
+    "name": "setSelectedPendingCandidates",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setSelectedPendingCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setSelectedPendingCandidates}",
+    "description": "function for selecting candidates",
+    "lineNumber": 49,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "users",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "function",
+    "name": "setCurrentPendingPage",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setCurrentPendingPage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setCurrentPendingPage}",
+    "description": "function for setting current page in table",
+    "lineNumber": 56,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "page",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "name": "setWithRequestDocsPendingCandidates",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~setWithRequestDocsPendingCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{setWithRequestDocsPendingCandidates}",
+    "description": "function for applying with request docs pending candidates",
+    "lineNumber": 63,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": "quantity with request docs pending candidates"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 132,
+    "kind": "function",
+    "name": "searchPendingCandidates",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~searchPendingCandidates",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{searchPendingCandidates}",
+    "description": "request for searching all pending candidates",
+    "lineNumber": 70,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} list of pending candidates"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "list of pending candidates"
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "function",
+    "name": "changeCandidateStatus",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~changeCandidateStatus",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{changeCandidateStatus}",
+    "description": "function for changing status of selected candidates",
+    "lineNumber": 92,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": "of request"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 134,
+    "kind": "function",
+    "name": "toggleAllPending",
+    "memberof": "src/store/actions/pendingCandidates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/pendingCandidates.js~toggleAllPending",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/pendingCandidates.js",
+    "importStyle": "{toggleAllPending}",
+    "description": "function for selecting all pending candidates",
+    "lineNumber": 110,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{payload: *, type: string}} redux action"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: *, type: string}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "src/store/actions/statistics.js",
+    "content": "import axios from 'axios';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport {\n\tACTIVATE_LOADER,\n\tDEACTIVATE_LOADER,\n\tSET_STATISTICS_ALL,\n\tSET_STATISTICS_EXPERIENCE,\n\tSET_STATISTICS_SPECIALIZATION,\n} from '../actionTypes/actionTypes';\n\n/**\n * @desc function for setting statistics all\n * @param {object} statisticsAll\n * @return {{payload: {object}, type: {string}}} redux action\n */\nexport const setStatisticsAll = (statisticsAll) => ({ type: SET_STATISTICS_ALL, payload: statisticsAll });\n\n/**\n * @desc function for getting statistics All data from API\n * @param {string} startDate\n * @param {string} endDate\n */\nexport const handleStatisticsAll = (startDate, endDate) => async (dispatch) => {\n\ttry {\n\t\tlet body;\n\t\tif (!startDate && !endDate) {\n\t\t\tbody = {};\n\t\t} else {\n\t\t\tbody = {\n\t\t\t\tinterval: {\n\t\t\t\t\tfrom: startDate,\n\t\t\t\t\tto: endDate,\n\t\t\t\t},\n\t\t\t};\n\t\t}\n\t\tdispatch({ type: ACTIVATE_LOADER });\n\t\tconst URL = `${BASE_URL}/statistics/all`;\n\t\tconst response = await axios.post(URL, body);\n\t\tdispatch(setStatisticsAll(response.data));\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t}\n};\n\n/**\n * @desc function for getting statistics Specialization data from API\n * @param {string} startDate\n * @param {string} endDate\n */\nexport const handleStatisticsSpecialization = (startDate, endDate) => async (dispatch) => {\n\ttry {\n\t\tlet body;\n\t\tif (startDate === null && endDate === null) {\n\t\t\tbody = {\n\t\t\t\tkey: 'skills',\n\t\t\t};\n\t\t} else {\n\t\t\tbody = {\n\t\t\t\tkey: 'skills',\n\t\t\t\tinterval: {\n\t\t\t\t\tfrom: startDate,\n\t\t\t\t\tto: endDate,\n\t\t\t\t},\n\t\t\t};\n\t\t}\n\t\tdispatch({ type: ACTIVATE_LOADER });\n\t\tconst response = await axios.post(`${BASE_URL}/statistics`, body);\n\t\tdispatch({ type: SET_STATISTICS_SPECIALIZATION, payload: response.data });\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t} catch (err) {\n\t\tconsole.warn(err);\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t}\n};\n\n/**\n * @desc function for getting statistics Experience data from API\n * @param {string} startDate\n * @param {string} endDate\n */\nexport const handleStatisticsExperience = (startDate, endDate) => async (dispatch) => {\n\ttry {\n\t\tlet body;\n\t\tif (startDate === null && endDate === null) {\n\t\t\tbody = {\n\t\t\t\tkey: 'experience',\n\t\t\t};\n\t\t} else {\n\t\t\tbody = {\n\t\t\t\tkey: 'experience',\n\t\t\t\tinterval: {\n\t\t\t\t\tfrom: startDate,\n\t\t\t\t\tto: endDate,\n\t\t\t\t},\n\t\t\t};\n\t\t}\n\t\tdispatch({ type: ACTIVATE_LOADER });\n\t\tconst response = await axios.post(`${BASE_URL}/statistics`, body);\n\t\tdispatch({ type: SET_STATISTICS_EXPERIENCE, payload: response.data });\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t} catch (err) {\n\t\tconsole.warn(err);\n\t\tdispatch({ type: DEACTIVATE_LOADER });\n\t}\n};\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/statistics.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "function",
+    "name": "setStatisticsAll",
+    "memberof": "src/store/actions/statistics.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/statistics.js~setStatisticsAll",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/statistics.js",
+    "importStyle": "{setStatisticsAll}",
+    "description": "function for setting statistics all",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "statisticsAll",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{payload: {object}, type: {string}}"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "function",
+    "name": "handleStatisticsAll",
+    "memberof": "src/store/actions/statistics.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/statistics.js~handleStatisticsAll",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/statistics.js",
+    "importStyle": "{handleStatisticsAll}",
+    "description": "function for getting statistics All data from API",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "startDate",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "endDate",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "handleStatisticsSpecialization",
+    "memberof": "src/store/actions/statistics.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/statistics.js~handleStatisticsSpecialization",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/statistics.js",
+    "importStyle": "{handleStatisticsSpecialization}",
+    "description": "function for getting statistics Specialization data from API",
+    "lineNumber": 52,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "startDate",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "endDate",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 139,
+    "kind": "function",
+    "name": "handleStatisticsExperience",
+    "memberof": "src/store/actions/statistics.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/statistics.js~handleStatisticsExperience",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/statistics.js",
+    "importStyle": "{handleStatisticsExperience}",
+    "description": "function for getting statistics Experience data from API",
+    "lineNumber": 83,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "startDate",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "endDate",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 140,
+    "kind": "file",
+    "name": "src/store/actions/user.js",
+    "content": "import axios from 'axios';\nimport { BASE_URL } from '../../constants/mainConstants';\nimport {\n\tFINISH_LOADING,\n\tPASSWORD_RESETED,\n\tPASSWORD_RESET_ERROR,\n\tSET_API_REQUEST_ERROR,\n\tSET_DAYS,\n\tSET_USER_INFO,\n} from '../actionTypes/actionTypes';\n\n/**\n * @param {boolean} bool\n * @return {object} redux action\n * @desc function for password resetting\n */\nexport const setPasswordReseted = (bool) => ({ type: PASSWORD_RESETED, payload: bool });\n\n/**\n * @param {object}  err\n * @return {object} redux action\n * @desc function for setting error while password resetting\n */\nexport const setPasswordResetError = (err) => ({ type: PASSWORD_RESET_ERROR, payload: err });\n\n/**\n * @param {string} userEmail\n * @desc function for request to reset password\n */\nexport const resetPassword = (userEmail) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\temail: userEmail,\n\t\t};\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'content-type': 'application/json',\n\t\t\t},\n\t\t};\n\t\tawait axios.post(`${BASE_URL}/auth/resetPassword`, body, config);\n\t\tdispatch(setPasswordReseted(true));\n\t} catch (error) {\n\t\tdispatch(setPasswordResetError(error));\n\t}\n};\n\n/**\n * @desc function for setting API error\n * @param {string} message\n * @return {object} redux action\n */\nexport const setErrorMessage = (message) => ({ type: SET_API_REQUEST_ERROR, payload: message });\n\n/**\n * @desc function for sending request to specify the number of days after which users will automatically receive letters\n * @param {string} days\n */\nexport const setSettingsDays = (days) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\trenewalPeriod: +days,\n\t\t};\n\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tawait axios.patch(`${BASE_URL}/owners/setRenewalPeriod`, body, config);\n\t} catch (err) {\n\t\tconst message = err.response ? err.response.data.message : err.message;\n\t\tdispatch(setErrorMessage(message));\n\t\tdispatch({ type: FINISH_LOADING });\n\t}\n};\n\n/**\n * @desc function for sending request to get the renewal period in days\n */\nexport const getSettingsDays = () => async (dispatch) => {\n\ttry {\n\t\tconst { data } = await axios.get(`${BASE_URL}/owners/getRenewalPeriod`);\n\t\tdispatch({ type: SET_DAYS, payload: data.days });\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n * @desc function for setting user info\n * @param {object} userInfo\n * @return {object} redux action\n */\nexport const setUserInfo = (userInfo) => ({ type: SET_USER_INFO, payload: userInfo });\n\n/**\n *@desc function for request to get info about user\n */\nexport const handleUserInfo = () => async (dispatch) => {\n\ttry {\n\t\tconst response = await axios.get(`${BASE_URL}/employers/credentials`);\n\t\tdispatch(setUserInfo(response.data));\n\t\tlocalStorage.setItem('USER', JSON.stringify(response.data));\n\t} catch (error) {\n\t\tconsole.warn(error);\n\t}\n};\n\n/**\n * @desc Setting a password to the new employer\n * @param {string} token - token from link\n * @param {string} password - new password\n * @param {string} confirmPassword - password confirmation\n */\nexport const handleRegistration = ({ password, confirmPassword }, token) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\tpassword,\n\t\t\trepeatedPassword: confirmPassword,\n\t\t};\n\n\t\tawait axios.patch(`${BASE_URL}/auth/setPassword?token=${token}`, body);\n\t\treturn true;\n\t} catch (err) {\n\t\tdispatch(setErrorMessage(err.message));\n\t\treturn false;\n\t}\n};\n\n/**\n * @desc Set password for registered users\n * @param {string} password\n * @param {string} confirmation\n */\nexport const handleSetPasswordForRegistered = ({ password, confirmation }) => async (dispatch) => {\n\ttry {\n\t\tconst body = {\n\t\t\tpassword,\n\t\t\trepeatedPassword: confirmation,\n\t\t};\n\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tawait axios.patch(`${BASE_URL}/auth/setPasswordForPersonalAccount`, body, config);\n\t} catch (error) {\n\t\tdispatch(setErrorMessage(error.message));\n\t}\n};\n\n/**\n * @desc Handling sending a message to support.\n * @param {string} email\n * @param {string} message\n */\nexport const getSupport = ({ email, message }) => async (dispatch) => {\n\ttry {\n\t\tconst config = {\n\t\t\theaders: {\n\t\t\t\t'Content-Type': 'application/json',\n\t\t\t},\n\t\t};\n\n\t\tconst body = {\n\t\t\trecipient: '',\n\t\t\tsender: email,\n\t\t\tmailParams: {\n\t\t\t\tsuccessMessage: 'Successfully sent an email to support',\n\t\t\t\tfailMessage: 'An error occurred while sending an email to support',\n\t\t\t\treplaceParams: {},\n\t\t\t},\n\t\t\tmessage,\n\t\t};\n\n\t\tawait axios.post(`${BASE_URL}/emails/support `, body, config);\n\t} catch (err) {\n\t\tdispatch(setErrorMessage(err.message));\n\t}\n};\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/actions/user.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 141,
+    "kind": "function",
+    "name": "setPasswordReseted",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~setPasswordReseted",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{setPasswordReseted}",
+    "description": "function for password resetting",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "bool",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "function",
+    "name": "setPasswordResetError",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~setPasswordResetError",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{setPasswordResetError}",
+    "description": "function for setting error while password resetting",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "err",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "function",
+    "name": "resetPassword",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~resetPassword",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{resetPassword}",
+    "description": "function for request to reset password",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "userEmail",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 144,
+    "kind": "function",
+    "name": "setErrorMessage",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~setErrorMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{setErrorMessage}",
+    "description": "function for setting API error",
+    "lineNumber": 52,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "function",
+    "name": "setSettingsDays",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~setSettingsDays",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{setSettingsDays}",
+    "description": "function for sending request to specify the number of days after which users will automatically receive letters",
+    "lineNumber": 58,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "days",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 146,
+    "kind": "function",
+    "name": "getSettingsDays",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~getSettingsDays",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{getSettingsDays}",
+    "description": "function for sending request to get the renewal period in days",
+    "lineNumber": 81,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 147,
+    "kind": "function",
+    "name": "setUserInfo",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~setUserInfo",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{setUserInfo}",
+    "description": "function for setting user info",
+    "lineNumber": 95,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "userInfo",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "redux action"
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "function",
+    "name": "handleUserInfo",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~handleUserInfo",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{handleUserInfo}",
+    "description": "function for request to get info about user",
+    "lineNumber": 100,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 149,
+    "kind": "function",
+    "name": "handleRegistration",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~handleRegistration",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{handleRegistration}",
+    "description": "Setting a password to the new employer",
+    "lineNumber": 116,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "token from link"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": "new password"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "confirmPassword",
+        "description": "password confirmation"
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "function",
+    "name": "handleSetPasswordForRegistered",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~handleSetPasswordForRegistered",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{handleSetPasswordForRegistered}",
+    "description": "Set password for registered users",
+    "lineNumber": 136,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "confirmation",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 151,
+    "kind": "function",
+    "name": "getSupport",
+    "memberof": "src/store/actions/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/actions/user.js~getSupport",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/actions/user.js",
+    "importStyle": "{getSupport}",
+    "description": "Handling sending a message to support.",
+    "lineNumber": 160,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "name": "src/store/reducers/calendar.js",
+    "content": "import {\n\tMAX_CALENDARS_ERROR,\n\tSET_ACTIVE_PERIODS,\n\tSET_CALENDAR_ACTIVE,\n\tSET_CURRENT_USER,\n\tSET_DURATION_VALID,\n\tSET_PERIOD,\n\tSET_PERIODS_LOADED,\n\tSET_PERIOD_TO_SHOW,\n\tSET_PERIOD_VALID,\n\tSET_POPUP_WITH_INFO,\n\tSET_TABLE_POSITION,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tisCalendarActive: false,\n\tpopupWithInfoActive: false,\n\tcurrentUser: null,\n\tactivePeriods: [],\n\tperiodToShow: null,\n\tperiodsLoaded: false,\n\ttablePosition: 0,\n\tdeletePopupActive: false,\n\tact: '',\n\tperiod: { start: '', end: '', interviewDuration: '', exemptHolidays: false, preferredTimeList: [] },\n\tmaxCalendars: null,\n\tperiodValid: true,\n\tdurationValid: true,\n};\n\nconst calendar = (state = initialState, action) => {\n\tswitch (action.type) {\n\t\tcase SET_PERIOD:\n\t\t\treturn { ...state, period: action.payload };\n\n\t\tcase SET_CALENDAR_ACTIVE:\n\t\t\treturn { ...state, isCalendarActive: action.payload };\n\n\t\tcase SET_POPUP_WITH_INFO:\n\t\t\treturn { ...state, popupWithInfoActive: !state.popupWithInfoActive };\n\n\t\tcase SET_CURRENT_USER:\n\t\t\treturn { ...state, currentUser: action.payload };\n\n\t\tcase SET_ACTIVE_PERIODS:\n\t\t\treturn { ...state, activePeriods: action.payload };\n\n\t\tcase SET_PERIOD_TO_SHOW:\n\t\t\treturn { ...state, periodToShow: action.payload, tablePosition: 0, act: 'periodChanged' };\n\n\t\tcase SET_PERIODS_LOADED:\n\t\t\treturn { ...state, periodsLoaded: true };\n\n\t\tcase SET_TABLE_POSITION:\n\t\t\treturn { ...state, tablePosition: action.payload, act: action.act };\n\n\t\tcase MAX_CALENDARS_ERROR:\n\t\t\treturn { ...state, maxCalendars: action.payload };\n\n\t\tcase SET_PERIOD_VALID:\n\t\t\treturn { ...state, periodValid: action.payload };\n\n\t\tcase SET_DURATION_VALID:\n\t\t\treturn { ...state, durationValid: action.payload };\n\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default calendar;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/calendar.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/calendar.js",
+    "static": true,
+    "longname": "src/store/reducers/calendar.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/calendar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"isCalendarActive\": *, \"popupWithInfoActive\": *, \"currentUser\": *, \"activePeriods\": *, \"periodToShow\": *, \"periodsLoaded\": *, \"tablePosition\": *, \"deletePopupActive\": *, \"act\": *, \"period\": *, \"maxCalendars\": *, \"periodValid\": boolean, \"durationValid\": boolean}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "function",
+    "name": "calendar",
+    "memberof": "src/store/reducers/calendar.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/calendar.js~calendar",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/calendar.js",
+    "importStyle": "calendar",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "name": "src/store/reducers/candidatesFiltersReducer.js",
+    "content": "import {\n\tFILTERED_CANDIDATES,\n\tSET_IS_AGE_SELECTED,\n\tSET_ARE_LOADED,\n\tSET_CANDIDATES_PAGE,\n\tSET_REQUEST_BODY,\n\tSET_TOTAL_CANDIDATES,\n\tSET_SELECTED_USER,\n\tSET_SHOWN_SELECTED,\n\tTOGGLE_SELECTED_ALL,\n\tDESELECT_ALL,\n\tSET_WITH_REQUESTED_DOCS,\n\tSET_WITH_DETAILED_INFO,\n\tSET_COUNTRIES_FILTERS,\n\tSET_ERROR_MESSAGE,\n\tSET_AGE_FILTER,\n\tSET_DOCUMENTS_CATEGORIES,\n\tSET_CANDIDATE_TRANSLATED_CV,\n\tSET_WITH_REQUEST_DOCS_CANDIDATES,\n\tSET_CV_TRANSLATED,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tcandidatesAreLoaded: true,\n\trequestBody: {\n\t\tdegree: [],\n\t\tshowWithRequestedDocuments: false,\n\t\tdetailed: false,\n\t\texperience: [],\n\t\tlanguages: [],\n\t\tskills: [],\n\t\tjobDetails: [],\n\t\tage: {\n\t\t\tfrom: 0,\n\t\t\tto: 100,\n\t\t},\n\t\tcountry: [],\n\t\tstatus: [],\n\t\tpage: 0,\n\t\tsize: 10,\n\t},\n\tcandidatesPage: 0,\n\ttotalCandidates: null,\n\tfilteredCandidates: null,\n\tageIsSelected: false,\n\tselectedUsers: [],\n\tallAreSelected: false,\n\tselectedShown: false,\n\twithDocsRequest: false,\n\twithDetailedInfo: false,\n\tcountriesFilters: [],\n\terrorMessage: '',\n\tfilters: {\n\t\tage: [0, 100],\n\t},\n\tcategories: [],\n\tcurrentCandidateTranslatedCV: {},\n\twithRequestDocsCandidates: 0,\n\tisCVTranslated: false,\n};\n\nconst candidatesFiltersReducer = (state = initialState, action) => {\n\tconst { type, payload } = action;\n\n\tswitch (type) {\n\t\tcase FILTERED_CANDIDATES:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tfilteredCandidates: payload,\n\t\t\t\tcandidatesAreLoaded: true,\n\t\t\t};\n\t\tcase SET_IS_AGE_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tageIsSelected: !state.ageIsSelected,\n\t\t\t};\n\t\tcase SET_ARE_LOADED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tcandidatesAreLoaded: action.payload,\n\t\t\t};\n\t\tcase SET_CANDIDATES_PAGE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tcandidatesPage: payload,\n\t\t\t};\n\t\tcase SET_REQUEST_BODY:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\trequestBody: payload,\n\t\t\t};\n\t\tcase SET_TOTAL_CANDIDATES:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\ttotalCandidates: payload,\n\t\t\t};\n\t\tcase SET_SELECTED_USER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tselectedUsers: payload,\n\t\t\t};\n\t\tcase SET_SHOWN_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tselectedShown: !state.selectedShown,\n\t\t\t};\n\t\tcase TOGGLE_SELECTED_ALL:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallAreSelected: action.payload,\n\t\t\t};\n\t\tcase DESELECT_ALL:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallAreSelected: false,\n\t\t\t\tselectedUsers: [],\n\t\t\t};\n\t\tcase SET_WITH_REQUESTED_DOCS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\twithDocsRequest: !state.withDocsRequest,\n\t\t\t};\n\t\tcase SET_WITH_DETAILED_INFO:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\twithDetailedInfo: !state.withDetailedInfo,\n\t\t\t};\n\t\tcase SET_COUNTRIES_FILTERS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tcountriesFilters: payload,\n\t\t\t};\n\t\tcase SET_ERROR_MESSAGE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\terrorMessage: payload,\n\t\t\t};\n\t\tcase SET_AGE_FILTER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tfilters: {\n\t\t\t\t\t...state.filters,\n\t\t\t\t\tage: payload,\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_DOCUMENTS_CATEGORIES:\n\t\t\treturn { ...state, categories: action.payload };\n\t\tcase SET_CANDIDATE_TRANSLATED_CV:\n\t\t\treturn { ...state, currentCandidateTranslatedCV: action.payload };\n\t\tcase SET_WITH_REQUEST_DOCS_CANDIDATES:\n\t\t\treturn { ...state, withRequestDocsCandidates: action.payload };\n\t\tcase SET_CV_TRANSLATED:\n\t\t\treturn { ...state, isCVTranslated: action.payload };\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default candidatesFiltersReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/candidatesFiltersReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 156,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/candidatesFiltersReducer.js",
+    "static": true,
+    "longname": "src/store/reducers/candidatesFiltersReducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/candidatesFiltersReducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"candidatesAreLoaded\": boolean, \"requestBody\": *, \"candidatesPage\": *, \"totalCandidates\": *, \"filteredCandidates\": *, \"ageIsSelected\": *, \"selectedUsers\": *, \"allAreSelected\": *, \"selectedShown\": *, \"withDocsRequest\": *, \"withDetailedInfo\": *, \"countriesFilters\": *, \"errorMessage\": *, \"filters\": *, \"categories\": *, \"currentCandidateTranslatedCV\": *, \"withRequestDocsCandidates\": *, \"isCVTranslated\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 157,
+    "kind": "function",
+    "name": "candidatesFiltersReducer",
+    "memberof": "src/store/reducers/candidatesFiltersReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/candidatesFiltersReducer.js~candidatesFiltersReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/candidatesFiltersReducer.js",
+    "importStyle": "candidatesFiltersReducer",
+    "description": null,
+    "lineNumber": 62,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 158,
+    "kind": "file",
+    "name": "src/store/reducers/employersListReducer.js",
+    "content": "import {\n\tSET_IS_INTERVIEWED_SELECTED,\n\tSET_IS_HIRED_SELECTED,\n\tSET_ONLY_ACTIVE,\n\tSET_EMPLOYERS,\n\tSET_TOTAL_EMPLOYERS,\n\tSET_EMPLOYERS_REQUEST_BODY,\n\tSET_ARE_EMPLOYERS_LOADED,\n\tDESELECT_ALL_EMPLOYERS,\n\tSET_SELECTED_EMPLOYER,\n\tSET_SELECTED_EMPLOYERS_SHOWN,\n\tTOGGLE_SELECT_ALL_EMPLOYERS,\n\tSET_EMPLOYERS_PAGE,\n\tSET_IS_REGISTRATION_SELECTED,\n\tSET_HIRED_FILTER,\n\tSET_INTERVIEWED_FILTER,\n\tSET_REGISTRATION_FILTER,\n\tSET_QUERY,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\temployersAreLoaded: true,\n\temployersRequestBody: {\n\t\tonlyActive: false,\n\t\tsize: 10,\n\t\tpage: 0,\n\t},\n\temployers: null,\n\tonlyActive: false,\n\tregistrationIsSelected: false,\n\tinterviewedIsSelected: false,\n\thiredIsSelected: false,\n\tallAreSelected: false,\n\tselectedEmployers: [],\n\tselectedEmployersShown: false,\n\temployersPage: 0,\n\ttotalEmployers: null,\n\ttableSize: 10,\n\tfilters: {\n\t\tregistrated: {\n\t\t\tstartDate: '',\n\t\t\tendDate: '',\n\t\t},\n\t\thired: [0, 100],\n\t\tinterviewed: [0, 100],\n\t},\n\tquery: '',\n};\n\nconst employersListReducer = (state = initialState, action) => {\n\tconst { type, payload, name } = action;\n\n\tswitch (type) {\n\t\tcase SET_EMPLOYERS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\temployers: payload,\n\t\t\t\temployersAreLoaded: true,\n\t\t\t};\n\t\tcase SET_EMPLOYERS_REQUEST_BODY:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\temployersRequestBody: payload,\n\t\t\t};\n\t\tcase SET_ARE_EMPLOYERS_LOADED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\temployersAreLoaded: false,\n\t\t\t};\n\t\tcase TOGGLE_SELECT_ALL_EMPLOYERS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallAreSelected: action.payload,\n\t\t\t};\n\t\tcase DESELECT_ALL_EMPLOYERS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallAreSelected: false,\n\t\t\t\tselectedEmployers: [],\n\t\t\t};\n\t\tcase SET_TOTAL_EMPLOYERS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\ttotalEmployers: payload,\n\t\t\t};\n\t\tcase SET_EMPLOYERS_PAGE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\temployersPage: payload,\n\t\t\t\temployersRequestBody: {\n\t\t\t\t\t...state.employersRequestBody,\n\t\t\t\t\tpage: payload,\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_IS_INTERVIEWED_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tinterviewedIsSelected: !state.interviewedIsSelected,\n\t\t\t};\n\t\tcase SET_IS_REGISTRATION_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tregistrationIsSelected: !state.registrationIsSelected,\n\t\t\t};\n\t\tcase SET_IS_HIRED_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\thiredIsSelected: !state.hiredIsSelected,\n\t\t\t};\n\t\tcase SET_ONLY_ACTIVE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tonlyActive: !state.onlyActive,\n\t\t\t\temployersRequestBody: {\n\t\t\t\t\t...state.employersRequestBody,\n\t\t\t\t\tonlyActive: !state.onlyActive,\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_SELECTED_EMPLOYER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tselectedEmployers: payload,\n\t\t\t};\n\t\tcase SET_SELECTED_EMPLOYERS_SHOWN:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tselectedEmployersShown: !state.selectedEmployersShown,\n\t\t\t};\n\t\tcase SET_HIRED_FILTER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tfilters: {\n\t\t\t\t\t...state.filters,\n\t\t\t\t\thired: payload,\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_INTERVIEWED_FILTER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tfilters: {\n\t\t\t\t\t...state.filters,\n\t\t\t\t\tinterviewed: payload,\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_REGISTRATION_FILTER:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tfilters: {\n\t\t\t\t\t...state.filters,\n\t\t\t\t\tregistrated: {\n\t\t\t\t\t\t...state.filters.registrated,\n\t\t\t\t\t\t[name]: payload,\n\t\t\t\t\t},\n\t\t\t\t},\n\t\t\t};\n\t\tcase SET_QUERY:\n\t\t\treturn { ...state, query: action.payload };\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default employersListReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/employersListReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 159,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/employersListReducer.js",
+    "static": true,
+    "longname": "src/store/reducers/employersListReducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/employersListReducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"employersAreLoaded\": boolean, \"employersRequestBody\": *, \"employers\": *, \"onlyActive\": *, \"registrationIsSelected\": *, \"interviewedIsSelected\": *, \"hiredIsSelected\": *, \"allAreSelected\": *, \"selectedEmployers\": *, \"selectedEmployersShown\": *, \"employersPage\": *, \"totalEmployers\": *, \"tableSize\": number, \"filters\": *, \"query\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 160,
+    "kind": "function",
+    "name": "employersListReducer",
+    "memberof": "src/store/reducers/employersListReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/employersListReducer.js~employersListReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/employersListReducer.js",
+    "importStyle": "employersListReducer",
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 161,
+    "kind": "file",
+    "name": "src/store/reducers/languageReducer.js",
+    "content": "import { SET_LANGUAGE } from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tlanguage: 'de',\n};\n\nconst languageReducer = (state = initialState, action) => {\n\tswitch (action.type) {\n\t\tcase SET_LANGUAGE:\n\t\t\treturn { ...state, language: action.payload };\n\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default languageReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/languageReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 162,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/languageReducer.js",
+    "static": true,
+    "longname": "src/store/reducers/languageReducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/languageReducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"language\": string}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 163,
+    "kind": "function",
+    "name": "languageReducer",
+    "memberof": "src/store/reducers/languageReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/languageReducer.js~languageReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/languageReducer.js",
+    "importStyle": "languageReducer",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 164,
+    "kind": "file",
+    "name": "src/store/reducers/mainReducer.js",
+    "content": "import {\n\tLOGIN_USER,\n\tACTIVATE_LOADER,\n\tCANDIDATES_PAGE,\n\tDEACTIVATE_LOADER,\n\tGET_ALL_CANDIDATES,\n\tPDF_REF,\n\tTOGGLE_MODAL,\n\tTOKEN,\n\tTOTAL_ROWS,\n\tUSER_ID,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tloaderIsActive: false,\n\tisLogin: false,\n\ttoken: null,\n\tid: null,\n\trole: null,\n\n\tcandidates: [],\n\tcandidatesPage: 1,\n\tcandidatesRows: 0,\n\ttotalRows: 0,\n\tmodalIsOpen: false,\n\tpdfRef: null,\n};\n\nconst mainReducer = (state = initialState, action) => {\n\tswitch (action.type) {\n\t\tcase LOGIN_USER:\n\t\t\treturn { ...state, isLogin: !state.isLogin };\n\t\tcase ACTIVATE_LOADER:\n\t\t\treturn { ...state, loaderIsActive: true };\n\t\tcase DEACTIVATE_LOADER:\n\t\t\treturn { ...state, loaderIsActive: false };\n\t\tcase TOKEN:\n\t\t\treturn { ...state, token: action.payload };\n\t\tcase USER_ID:\n\t\t\treturn { ...state, id: action.payload };\n\n\t\tcase GET_ALL_CANDIDATES:\n\t\t\treturn { ...state, candidates: action.payload };\n\t\tcase CANDIDATES_PAGE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tcandidatesPage: action.payload.page + 1,\n\t\t\t\tcandidatesRows: action.payload.first,\n\t\t\t};\n\t\tcase TOTAL_ROWS:\n\t\t\treturn { ...state, totalRows: action.payload };\n\t\tcase TOGGLE_MODAL:\n\t\t\treturn { ...state, modalIsOpen: action.payload };\n\t\tcase PDF_REF:\n\t\t\treturn { ...state, pdfRef: action.payload };\n\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default mainReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/mainReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 165,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/mainReducer.js",
+    "static": true,
+    "longname": "src/store/reducers/mainReducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/mainReducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"loaderIsActive\": *, \"isLogin\": *, \"token\": *, \"id\": *, \"role\": *, \"candidates\": *, \"candidatesPage\": number, \"candidatesRows\": *, \"totalRows\": *, \"modalIsOpen\": *, \"pdfRef\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 166,
+    "kind": "function",
+    "name": "mainReducer",
+    "memberof": "src/store/reducers/mainReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/mainReducer.js~mainReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/mainReducer.js",
+    "importStyle": "mainReducer",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 167,
+    "kind": "file",
+    "name": "src/store/reducers/pendingCandidatesReducer.js",
+    "content": "import {\n\tSET_PENDING_CANDIDATES,\n\tSET_TOTAL_PENDING_CANDIDATES,\n\tSET_ARE_PENDING_LOADED,\n\tSET_PENDING_REQUEST_BODY,\n\tSET_SELECTED_PENDING_CANDIDATE,\n\tSET_PENDING_CANDIDATES_PAGE,\n\tTOGGLE_ALL_PENDING_SELECTED,\n\tDESELECT_ALL_PENDING,\n\tSET_WITH_REQUEST_DOCS_PENDING_CANDIDATES,\n\tSET_WITH_PENDING_REQUESTED_DOCS,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tareLoaded: true,\n\tpendingCandidates: null,\n\ttotalPendingCandidates: null,\n\tpendingRequestBody: {\n\t\tdegree: [],\n\t\tshowWithRequestedDocuments: false,\n\t\tdetailed: false,\n\t\texperience: [],\n\t\tlanguages: [],\n\t\tskills: [],\n\t\tjobDetails: [],\n\t\tage: {\n\t\t\tfrom: 0,\n\t\t\tto: 100,\n\t\t},\n\t\tcountry: [],\n\t\tstatus: [0],\n\t\tpage: 0,\n\t\tsize: 10,\n\t},\n\tselectedPendingCandidates: [],\n\twithRequestDocsPendingCandidates: 0,\n\tallPendingSelected: false,\n\tpendingCandidatesPage: 0,\n\twithPendingDocsRequest: false,\n};\n\nconst pendingCandidatesReducer = (state = initialState, action) => {\n\tconst { type, payload } = action;\n\n\tswitch (type) {\n\t\tcase SET_PENDING_CANDIDATES:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tpendingCandidates: payload,\n\t\t\t\tareLoaded: true,\n\t\t\t};\n\t\tcase SET_TOTAL_PENDING_CANDIDATES:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\ttotalPendingCandidates: payload,\n\t\t\t};\n\t\tcase SET_ARE_PENDING_LOADED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tareLoaded: false,\n\t\t\t};\n\t\tcase SET_PENDING_REQUEST_BODY:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tpendingRequestBody: payload,\n\t\t\t};\n\t\tcase SET_SELECTED_PENDING_CANDIDATE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tselectedPendingCandidates: payload,\n\t\t\t};\n\t\tcase SET_PENDING_CANDIDATES_PAGE:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tpendingCandidatesPage: payload,\n\t\t\t};\n\t\tcase TOGGLE_ALL_PENDING_SELECTED:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallPendingSelected: action.payload,\n\t\t\t};\n\t\tcase DESELECT_ALL_PENDING:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\tallPendingSelected: false,\n\t\t\t\tselectedPendingCandidates: [],\n\t\t\t};\n\t\tcase SET_WITH_REQUEST_DOCS_PENDING_CANDIDATES:\n\t\t\treturn { ...state, withRequestDocsPendingCandidates: action.payload };\n\t\tcase SET_WITH_PENDING_REQUESTED_DOCS:\n\t\t\treturn {\n\t\t\t\t...state,\n\t\t\t\twithPendingDocsRequest: !state.withPendingDocsRequest,\n\t\t\t};\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default pendingCandidatesReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/pendingCandidatesReducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 168,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/pendingCandidatesReducer.js",
+    "static": true,
+    "longname": "src/store/reducers/pendingCandidatesReducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/pendingCandidatesReducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"areLoaded\": boolean, \"pendingCandidates\": *, \"totalPendingCandidates\": *, \"pendingRequestBody\": *, \"selectedPendingCandidates\": *, \"withRequestDocsPendingCandidates\": *, \"allPendingSelected\": *, \"pendingCandidatesPage\": *, \"withPendingDocsRequest\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 169,
+    "kind": "function",
+    "name": "pendingCandidatesReducer",
+    "memberof": "src/store/reducers/pendingCandidatesReducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/pendingCandidatesReducer.js~pendingCandidatesReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/pendingCandidatesReducer.js",
+    "importStyle": "pendingCandidatesReducer",
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 170,
+    "kind": "file",
+    "name": "src/store/reducers/statistics.reducer.js",
+    "content": "import { SET_STATISTICS_ALL, SET_STATISTICS_EXPERIENCE, SET_STATISTICS_SPECIALIZATION } from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tstatisticsAll: [],\n\tstatisticsExperience: [],\n\tstatisticsSpecialization: [],\n};\n\nconst statisticsReducer = (state = initialState, action) => {\n\tswitch (action.type) {\n\t\tcase SET_STATISTICS_ALL:\n\t\t\treturn { ...state, statisticsAll: action.payload };\n\t\tcase SET_STATISTICS_EXPERIENCE:\n\t\t\treturn { ...state, statisticsExperience: action.payload };\n\t\tcase SET_STATISTICS_SPECIALIZATION:\n\t\t\treturn { ...state, statisticsSpecialization: action.payload };\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default statisticsReducer;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/statistics.reducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 171,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/statistics.reducer.js",
+    "static": true,
+    "longname": "src/store/reducers/statistics.reducer.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/statistics.reducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"statisticsAll\": *, \"statisticsExperience\": *, \"statisticsSpecialization\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 172,
+    "kind": "function",
+    "name": "statisticsReducer",
+    "memberof": "src/store/reducers/statistics.reducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/statistics.reducer.js~statisticsReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/statistics.reducer.js",
+    "importStyle": "statisticsReducer",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 173,
+    "kind": "file",
+    "name": "src/store/reducers/user.js",
+    "content": "import {\n\tFINISH_LOADING,\n\tFULL_NAME,\n\tPASSWORD_RESETED,\n\tPASSWORD_RESET_ERROR,\n\tSET_API_REQUEST_ERROR,\n\tSET_DAYS,\n\tSET_USER_INFO,\n\tSTART_LOADING,\n\tUSER_TYPE,\n} from '../actionTypes/actionTypes';\n\nconst initialState = {\n\tpasswordReseted: false,\n\tpasswordResetError: false,\n\tmessage: null,\n\tuserInfo: null,\n\tfullName: null,\n\tdays: null,\n\tisLoaderActive: false,\n};\n\nconst user = (state = initialState, action) => {\n\tswitch (action.type) {\n\t\tcase USER_TYPE:\n\t\t\treturn { ...state, role: action.payload };\n\n\t\tcase PASSWORD_RESETED:\n\t\t\treturn { ...state, passwordReseted: action.payload };\n\t\tcase PASSWORD_RESET_ERROR:\n\t\t\treturn { ...state, passwordResetError: action.payload };\n\n\t\tcase SET_API_REQUEST_ERROR:\n\t\t\treturn { ...state, message: action.payload };\n\n\t\tcase SET_USER_INFO:\n\t\t\treturn { ...state, userInfo: action.payload };\n\n\t\tcase FULL_NAME:\n\t\t\treturn { ...state, fullName: action.payload };\n\n\t\tcase SET_DAYS:\n\t\t\treturn { ...state, days: action.payload, isLoaderActive: false };\n\n\t\tcase START_LOADING:\n\t\t\treturn { ...state, isLoaderActive: true };\n\n\t\tcase FINISH_LOADING:\n\t\t\treturn { ...state, isLoaderActive: false };\n\n\t\tdefault:\n\t\t\treturn state;\n\t}\n};\n\nexport default user;\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/reducers/user.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 174,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/store/reducers/user.js",
+    "static": true,
+    "longname": "src/store/reducers/user.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/reducers/user.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"passwordReseted\": *, \"passwordResetError\": *, \"message\": *, \"userInfo\": *, \"fullName\": *, \"days\": *, \"isLoaderActive\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 175,
+    "kind": "function",
+    "name": "user",
+    "memberof": "src/store/reducers/user.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/reducers/user.js~user",
+    "access": "public",
+    "export": true,
+    "importPath": "yugokraft-admin/src/store/reducers/user.js",
+    "importStyle": "user",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 176,
+    "kind": "file",
+    "name": "src/store/store.js",
+    "content": "import { createStore, applyMiddleware, combineReducers } from 'redux';\nimport thunk from 'redux-thunk';\nimport { composeWithDevTools } from 'redux-devtools-extension';\nimport mainReducer from './reducers/mainReducer';\nimport candidatesFiltersReducer from './reducers/candidatesFiltersReducer';\nimport statisticsReducer from './reducers/statistics.reducer';\nimport pendingCandidatesReducer from './reducers/pendingCandidatesReducer';\nimport employersListReducer from './reducers/employersListReducer';\nimport languageReducer from './reducers/languageReducer';\nimport calendar from './reducers/calendar';\nimport user from './reducers/user';\n\nconst appReducer = combineReducers({\n\tmainReducer,\n\tcandidatesFiltersReducer,\n\tpendingCandidatesReducer,\n\temployersListReducer,\n\tstatisticsReducer,\n\tlanguageReducer,\n\tcalendar,\n\tuser,\n});\n\nconst rootReducer = (state, action) => {\n\tif (action.type === 'LOGOUT') {\n\t\t// eslint-disable-next-line no-param-reassign\n\t\tstate = undefined;\n\t}\n\treturn appReducer(state, action);\n};\n\nexport default createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));\n",
+    "static": true,
+    "longname": "C:/projects/work/yugokraft-admin/src/store/store.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 177,
+    "kind": "variable",
+    "name": "appReducer",
+    "memberof": "src/store/store.js",
+    "static": true,
+    "longname": "src/store/store.js~appReducer",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/store.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 178,
+    "kind": "function",
+    "name": "rootReducer",
+    "memberof": "src/store/store.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/store/store.js~rootReducer",
+    "access": "public",
+    "export": false,
+    "importPath": "yugokraft-admin/src/store/store.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Get the initial code\n1. `Fork` the repository\n2. `Clone` the forked repo\n3. Run `npm install` to install the dependencies\n4. Create a branch for you solution (e.g. `git checkout -b develop`)\n\n## Develop the project\n1. Run `npm start` to run a development server at `http://localhost:3000`\n\n2. Write the code inside the `src/` folder.\n\n3. Run `npm run lint` to check the code style and fix all the errors\n\n4. Commit and push all the recent changes\n\n## Prepare for code review\n1. Create a `Pull Request` (`PR`) from the forked repo `(<branch_name>)` to the original repo (`develop`)\n\n",
+    "longname": "C:\\projects\\work\\yugokraft-admin\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"yugokraft-admin\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@material-ui/core\": \"^4.11.0\",\n    \"@progress/kendo-react-pdf\": \"^3.16.0\",\n    \"@react-pdf/renderer\": \"^1.6.11\",\n    \"@testing-library/jest-dom\": \"^4.2.4\",\n    \"@testing-library/react\": \"^9.3.2\",\n    \"@testing-library/user-event\": \"^7.1.2\",\n    \"axios\": \"^0.19.2\",\n    \"classnames\": \"^2.2.6\",\n    \"date-fns\": \"^2.16.1\",\n    \"env-cmd\": \"^10.1.0\",\n    \"formik\": \"^2.1.5\",\n    \"history\": \"^5.0.0\",\n    \"i18n-js\": \"^3.7.1\",\n    \"jspdf\": \"^2.1.1\",\n    \"jwt-decode\": \"^3.1.2\",\n    \"lodash\": \"^4.17.20\",\n    \"node-sass\": \"^4.14.1\",\n    \"primeicons\": \"^4.0.0\",\n    \"primereact\": \"^4.1.2\",\n    \"react\": \"^16.13.1\",\n    \"react-datepicker\": \"^3.3.0\",\n    \"react-dom\": \"^16.13.1\",\n    \"react-dropdown\": \"^1.9.0\",\n    \"react-export-excel\": \"^0.5.3\",\n    \"react-jutsu\": \"^3.0.1\",\n    \"react-redux\": \"^7.2.1\",\n    \"react-router\": \"^5.2.0\",\n    \"react-router-dom\": \"^5.2.0\",\n    \"react-scripts\": \"^3.4.3\",\n    \"react-to-pdf\": \"0.0.13\",\n    \"react-transition-group\": \"^1.2.1\",\n    \"redux\": \"^4.0.5\",\n    \"redux-devtools-extension\": \"^2.13.8\",\n    \"redux-thunk\": \"^2.3.0\",\n    \"uuidv4\": \"^6.2.0\",\n    \"yup\": \"^0.29.1\"\n  },\n  \"scripts\": {\n    \"start\": \"env-cmd react-scripts start\",\n    \"build\": \"env-cmd react-scripts build\",\n    \"test\": \"env-cmd react-scripts test\",\n    \"eject\": \"env-cmd react-scripts eject\",\n    \"lint\": \"eslint \\\"**/*.{js,jsx}\\\" -c .eslintrc.json --fix\",\n    \"prettier\": \"prettier --write \\\"**/*.{js,jsx}\\\"\",\n    \"doc\": \"./node_modules/.bin/esdoc\"\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-publish-html-plugin\": \"^1.1.2\",\n    \"esdoc-react-plugin\": \"^1.0.1\",\n    \"eslint\": \"^6.6.0\",\n    \"eslint-config-airbnb\": \"^18.2.0\",\n    \"eslint-config-prettier\": \"^6.12.0\",\n    \"eslint-plugin-import\": \"^2.22.1\",\n    \"eslint-plugin-jsx-a11y\": \"^6.3.1\",\n    \"eslint-plugin-prettier\": \"^3.1.4\",\n    \"eslint-plugin-react\": \"^7.21.2\",\n    \"eslint-plugin-react-hooks\": \"^4.1.2\",\n    \"husky\": \"^4.3.0\",\n    \"lint-staged\": \"^10.4.0\",\n    \"prettier\": \"^2.1.2\",\n    \"stylelint\": \"^13.7.2\"\n  },\n  \"husky\": {\n    \"hooks\": {\n      \"pre-commit\": \"lint-staged\"\n    }\n  },\n  \"lint-staged\": {\n    \"*.+(js|jsx)\": [\n      \"eslint --fix\",\n      \"prettier --write\"\n    ]\n  }\n}\n",
+    "longname": "C:\\projects\\work\\yugokraft-admin\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

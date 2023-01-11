@@ -1,0 +1,126 @@
+@import "../../constants/globalConstants";
+
+.table {
+	font-family: 'Inter', sans-serif;
+	min-height: calc(100vh - 80px);
+	text-align: center;
+	line-height: 50px;
+	flex-shrink: 0;
+	transition: transform 1s linear;
+
+	&__container {
+		display: flex;
+		font-family: 'Inter', sans-serif;
+	}
+
+	&__header__container {
+		display: flex;
+		height: 50px;
+		line-height: 50px;
+		position: relative;
+	}
+
+	&__header {
+		font-weight: 600;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $main-color;
+		border: none;
+		border-bottom: 1px solid $calendar-border-color;
+		text-align: center;
+		width: 150px;
+	}
+
+	&__periods {
+		padding-left: 16px;;
+		font-weight: 600;
+		font-size: 10px;
+		text-transform: uppercase;
+		color: #CACACA;
+		border: none;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		border-bottom: 1px dashed $calendar-border-color;
+		background-color: $form-container-color;
+
+		&_zone {
+			border-bottom: 1px solid $calendar-border-color;
+			background: transparent;
+		}
+	}
+
+	&__row {
+		display: flex;
+	}
+
+	&__cells {
+		box-sizing: border-box;
+		border-bottom: 1px dashed $calendar-border-color;
+		border-right: 1px solid $calendar-border-color;
+		height: 50px;
+		flex-shrink: 0;
+		position: relative;
+	}
+
+	&__times {
+		z-index: 1;
+		background-color: $form-container-color;
+	}
+
+	&__button__container {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		background-color: $form-container-color;
+		position: absolute;
+
+		right: 0;
+		text-align: center;
+		height: 40px;
+		padding-top: 15px;
+	}
+
+	&__next {
+		background-image: url('/img/arrow.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		background-color: transparent;
+		color: transparent;
+
+		border: none;
+		outline: none;
+		height: 22px;
+		width: 22px;
+		font-size: 1px;
+		cursor: pointer;
+	}
+
+	&__prev {
+		background-image: url('/img/arrowl.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		background-color: transparent;
+		color: transparent;
+
+		border: none;
+		outline: none;
+		height: 22px;
+		width: 22px;
+		font-size: 1px;
+		cursor: pointer;
+	}
+
+	@media screen and (max-width: 1350px) {
+		.table__header__container{
+			font-size: 10px;
+		}
+
+		.table__header {
+			font-size: 10px;
+	}
+	}
+}

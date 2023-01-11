@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+.page {
+	&__container {
+		display: flex;
+		overflow-x: hidden;
+	}
+
+	&__right__container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__filters {
+		display: flex;
+		width: calc(100vw - 410px);
+		min-width: 600px;
+	}
+}
+
+.filtersList {
+	display: flex;
+	max-height: 100px;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+.filterButton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 14px 0px 14px;
+	width: fit-content;
+	height: 41px;
+	background: #f3f3f3;
+	border-radius: 50px;
+	padding: 10px 14px 10px 27px;
+	cursor: pointer;
+}
+
+.filterName {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #9F9F9F;
+	display: block;
+	white-space: nowrap;
+}
+
+.filterDeleteButton {
+	width: 24px;
+	height: 24px;
+	margin: 0 0 2px 20px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.filterDeleteButton::before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	background-image: url("/img/delete-hover.svg");
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	opacity: 0.4;
+	transition: 0.1s linear;
+}
+
+.filterDeleteButton:hover::before {
+	top: 0;
+	left: -3px;
+	width: 24px;
+	height: 24px;
+	opacity: 1;
+}

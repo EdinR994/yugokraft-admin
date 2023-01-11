@@ -1,0 +1,14 @@
+@import "../../constants/globalConstants";
+
+.card_container {
+	margin: 70px 60px 50px 50px;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+	.card_container {
+		padding: 5px 5px;
+		margin: 35px 30px 25px 25px;
+	}
+}

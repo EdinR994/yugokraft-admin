@@ -1,0 +1,157 @@
+.filterListSection {
+	display: inline-flex;
+	justify-content: space-between;
+	max-width: calc(100% - 330px);
+	height: max-content;
+	padding: 20px 33px;
+}
+
+.filtersList {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	min-height: 51px;
+}
+
+.filterButton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 14px;
+	margin-bottom: 10px;
+	min-width: 234px;
+	height: 41px;
+	background: #f3f3f3;
+	border-radius: 50px;
+	padding: 10px 14px 10px 27px;
+
+	&:nth-last-child(2) {
+		margin-right: 20px;
+	}
+}
+
+.clearBtn {
+	display: flex;
+	align-items: center;
+	width: 146.75px;
+	height: 42px;
+	background-color: #d9a7a7;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+
+	&:hover {
+		background-color: #f27480;
+
+	}
+
+	&Icon {
+		width: 16px;
+		height: 18px;
+		margin-left: 14px;
+		margin-right: 16px;
+	}
+
+	&Text {
+		font-family: Inter, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: #fff;
+	}
+}
+
+.filterName {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #9F9F9F;
+}
+
+.filterDeleteButton {
+	width: 24px;
+	height: 24px;
+	margin-left: 20px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 4px;
+		left: 0;
+		width: 18px;
+		height: 18px;
+		background-image: url("/img/delete-hover.svg");
+		background-size: 100%;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		opacity: 0.4;
+		transition: 0.1s linear;
+	}
+
+	&:hover::before {
+		top: 0;
+		left: -3px;
+		width: 24px;
+		height: 24px;
+		opacity: 1;
+	}
+}
+
+.queryButton {
+	position: absolute;
+	right: 33px;
+	min-width: 312px;
+	height: 42px;
+	background-color: #f27480;
+	border-radius: 5px;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+
+	&Dark {
+		background-color: #1e496b;
+	}
+}
+
+.backBtn {
+	position: absolute;
+  right: 33px;
+	height: 42px;
+	width: 233px;
+	border: 2px solid #f27480;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #fff;
+	color: #f27480;
+	cursor: pointer;
+	outline: none;
+}
+
+.queryLink {
+	color: #fff;
+	padding: 11px 42px;
+	text-decoration: none;
+
+	&:hover {
+		color: #fff;
+	}
+}

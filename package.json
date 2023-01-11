@@ -1,0 +1,93 @@
+{
+  "name": "yugokraft-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@progress/kendo-react-pdf": "^3.16.0",
+    "@react-pdf/renderer": "^1.6.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.1.5",
+    "history": "^5.0.0",
+    "i18n-js": "^3.7.1",
+    "jspdf": "^2.1.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "primeicons": "^4.0.0",
+    "primereact": "^4.1.2",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.13.1",
+    "react-dropdown": "^1.9.0",
+    "react-export-excel": "^0.5.3",
+    "react-jutsu": "^3.0.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-to-pdf": "0.0.13",
+    "react-transition-group": "^1.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "uuidv4": "^6.2.0",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "env-cmd react-scripts start",
+    "build": "env-cmd react-scripts build",
+    "test": "env-cmd react-scripts test",
+    "eject": "env-cmd react-scripts eject",
+    "lint": "eslint \"**/*.{js,jsx}\" -c .eslintrc.json --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-jsx-plugin": "^1.0.0",
+    "esdoc-publish-html-plugin": "^1.1.2",
+    "esdoc-react-plugin": "^1.0.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

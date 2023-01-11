@@ -1,0 +1,225 @@
+[
+  {
+    "name": "handleCalendarPeriod",
+    "filePath": "src/store/actions/calendars.js",
+    "lines": [
+      {
+        "lineNumber": 31,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 32,
+        "line": " * @param {object} period"
+      },
+      {
+        "lineNumber": 33,
+        "line": " * @desc function for handling calendar period"
+      },
+      {
+        "lineNumber": 34,
+        "line": " */"
+      },
+      {
+        "lineNumber": 35,
+        "line": "export const handleCalendarPeriod = (period, handleClose) => async (dispatch) => {"
+      }
+    ],
+    "codeParams": [
+      "period",
+      "handleClose"
+    ],
+    "docParams": [
+      "period"
+    ]
+  },
+  {
+    "name": "setToken",
+    "filePath": "src/store/actions/mainActions.js",
+    "lines": [
+      {
+        "lineNumber": 44,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 45,
+        "line": " * @param {string} id"
+      },
+      {
+        "lineNumber": 46,
+        "line": " * @return {object} redux action"
+      },
+      {
+        "lineNumber": 47,
+        "line": " * @desc function to writing user token to localStorage"
+      },
+      {
+        "lineNumber": 48,
+        "line": " */"
+      },
+      {
+        "lineNumber": 49,
+        "line": "const setToken = (token) => {"
+      }
+    ],
+    "codeParams": [
+      "token"
+    ],
+    "docParams": [
+      "id"
+    ]
+  },
+  {
+    "name": "handleLogin",
+    "filePath": "src/store/actions/mainActions.js",
+    "lines": [
+      {
+        "lineNumber": 81,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 82,
+        "line": " * @param {string} email"
+      },
+      {
+        "lineNumber": 83,
+        "line": " * @param {string} password"
+      },
+      {
+        "lineNumber": 84,
+        "line": " * @desc function for handling user authorization"
+      },
+      {
+        "lineNumber": 85,
+        "line": " */"
+      },
+      {
+        "lineNumber": 86,
+        "line": "export const handleLogin = ({ email, password }) => async (dispatch) => {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "email",
+      "password"
+    ]
+  },
+  {
+    "name": "handleRegistration",
+    "filePath": "src/store/actions/user.js",
+    "lines": [
+      {
+        "lineNumber": 109,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 110,
+        "line": " * @desc Setting a password to the new employer"
+      },
+      {
+        "lineNumber": 111,
+        "line": " * @param {string} token - token from link"
+      },
+      {
+        "lineNumber": 112,
+        "line": " * @param {string} password - new password"
+      },
+      {
+        "lineNumber": 113,
+        "line": " * @param {string} confirmPassword - password confirmation"
+      },
+      {
+        "lineNumber": 114,
+        "line": " */"
+      },
+      {
+        "lineNumber": 115,
+        "line": "export const handleRegistration = ({ password, confirmPassword }, token) => async (dispatch) => {"
+      }
+    ],
+    "codeParams": [
+      "*",
+      "token"
+    ],
+    "docParams": [
+      "token",
+      "password",
+      "confirmPassword"
+    ]
+  },
+  {
+    "name": "handleSetPasswordForRegistered",
+    "filePath": "src/store/actions/user.js",
+    "lines": [
+      {
+        "lineNumber": 130,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 131,
+        "line": " * @desc Set password for registered users"
+      },
+      {
+        "lineNumber": 132,
+        "line": " * @param {string} password"
+      },
+      {
+        "lineNumber": 133,
+        "line": " * @param {string} confirmation"
+      },
+      {
+        "lineNumber": 134,
+        "line": " */"
+      },
+      {
+        "lineNumber": 135,
+        "line": "export const handleSetPasswordForRegistered = ({ password, confirmation }) => async (dispatch) => {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "password",
+      "confirmation"
+    ]
+  },
+  {
+    "name": "getSupport",
+    "filePath": "src/store/actions/user.js",
+    "lines": [
+      {
+        "lineNumber": 154,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 155,
+        "line": " * @desc Handling sending a message to support."
+      },
+      {
+        "lineNumber": 156,
+        "line": " * @param {string} email"
+      },
+      {
+        "lineNumber": 157,
+        "line": " * @param {string} message"
+      },
+      {
+        "lineNumber": 158,
+        "line": " */"
+      },
+      {
+        "lineNumber": 159,
+        "line": "export const getSupport = ({ email, message }) => async (dispatch) => {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "email",
+      "message"
+    ]
+  }
+]

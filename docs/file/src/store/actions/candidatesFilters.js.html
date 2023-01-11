@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/store/actions/candidatesFilters.js | yugokraft-admin</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#helpers">Helpers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dateToUrl">dateToUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentRange">setCurrentRange</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-validateEmail">validateEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-workDuration">workDuration</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#store-actions">store/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deletePeriod">deletePeriod</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleCalendarPeriod">handleCalendarPeriod</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleCalendarPeriods">handleCalendarPeriods</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCalendarStatus">setCalendarStatus</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setDurationValid">setDurationValid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setMaxCalendarError">setMaxCalendarError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPeriod">setPeriod</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPeriodValid">setPeriodValid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPeriods">setPeriods</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPeriodsToShow">setPeriodsToShow</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPopupWithInfo">setPopupWithInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getAllDocuments">getAllDocuments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCandidateTranslatedCV">getCandidateTranslatedCV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCountryFilters">getCountryFilters</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getDocumentsArchiveByCategory">getDocumentsArchiveByCategory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getDocumentsCategories">getDocumentsCategories</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-inviteForInterview">inviteForInterview</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchCandidates">searchCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchCandidatesOwner">searchCandidatesOwner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendDocumentsRequest">sendDocumentsRequest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setAgeFilter">setAgeFilter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setAreLoaded">setAreLoaded</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCVTranslated">setCVTranslated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCandidateTranslatedCV">setCandidateTranslatedCV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCountriesFilters">setCountriesFilters</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentPage">setCurrentPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setDocumentsCategories">setDocumentsCategories</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorMessage">setErrorMessage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setFilteredCandidates">setFilteredCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setRequestBody">setRequestBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setSelectedUsers">setSelectedUsers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setTotalCandidates">setTotalCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setWithDetailedInfo">setWithDetailedInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setWithRequestDocsCandidates">setWithRequestDocsCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setWithRequestedDocs">setWithRequestedDocs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toggleCandidates">toggleCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changeEmployerStatus">changeEmployerStatus</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchEmployers">searchEmployers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentEmployersPage">setCurrentEmployersPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setEmployers">setEmployers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setEmployersDeselected">setEmployersDeselected</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setEmployersLoaded">setEmployersLoaded</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setEmployersRequestBody">setEmployersRequestBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setHiredFilter">setHiredFilter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setInterviewedFilter">setInterviewedFilter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setRegistrationFilter">setRegistrationFilter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setSearchQuery">setSearchQuery</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setSelectedEmployers">setSelectedEmployers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setTotalEmployers">setTotalEmployers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toggleEmployers">toggleEmployers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCandidateFiles">getCandidateFiles</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCandidatesExcel">getCandidatesExcel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleLogin">handleLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setLanguage">setLanguage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setLoaderActive">setLoaderActive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setLoaderDisabled">setLoaderDisabled</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setModalIsOpen">setModalIsOpen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPdfRef">setPdfRef</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changeCandidateStatus">changeCandidateStatus</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchPendingCandidates">searchPendingCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentPendingPage">setCurrentPendingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPendingCandidates">setPendingCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPendingRequestBody">setPendingRequestBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setSelectedPendingCandidates">setSelectedPendingCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setTotalPendingCandidates">setTotalPendingCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setWithPendingRequestedDocs">setWithPendingRequestedDocs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setWithRequestDocsPendingCandidates">setWithRequestDocsPendingCandidates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toggleAllPending">toggleAllPending</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleStatisticsAll">handleStatisticsAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleStatisticsExperience">handleStatisticsExperience</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleStatisticsSpecialization">handleStatisticsSpecialization</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setStatisticsAll">setStatisticsAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getSettingsDays">getSettingsDays</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getSupport">getSupport</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleRegistration">handleRegistration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleSetPasswordForRegistered">handleSetPasswordForRegistered</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-handleUserInfo">handleUserInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-resetPassword">resetPassword</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorMessage">setErrorMessage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPasswordResetError">setPasswordResetError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setPasswordReseted">setPasswordReseted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setSettingsDays">setSettingsDays</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setUserInfo">setUserInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#store-reducers">store/reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calendar">calendar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-candidatesFiltersReducer">candidatesFiltersReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-employersListReducer">employersListReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-languageReducer">languageReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mainReducer">mainReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pendingCandidatesReducer">pendingCandidatesReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-statisticsReducer">statisticsReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-user">user</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/store/actions/candidatesFilters.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import axios from &apos;axios&apos;;
+import {
+	FILTERED_CANDIDATES,
+	SET_AGE_FILTER,
+	SET_CANDIDATES_PAGE,
+	SET_COUNTRIES_FILTERS,
+	SET_REQUEST_BODY,
+	SET_SELECTED_USER,
+	SET_TOTAL_CANDIDATES,
+	SET_WITH_REQUESTED_DOCS,
+	SET_WITH_DETAILED_INFO,
+	SET_ERROR_MESSAGE,
+	SET_DOCUMENTS_CATEGORIES,
+	SET_CANDIDATE_TRANSLATED_CV,
+	SET_WITH_REQUEST_DOCS_CANDIDATES,
+	SET_CV_TRANSLATED,
+	TOGGLE_SELECTED_ALL,
+	SET_ARE_LOADED,
+} from &apos;../actionTypes/actionTypes&apos;;
+import { BASE_URL } from &apos;../../constants/mainConstants&apos;;
+import { setLoaderDisabled } from &apos;./mainActions&apos;;
+import { setErrorMessage as setErrorMessageAPI } from &apos;./user&apos;;
+
+/**
+ * @desc function for apply filtered candidates
+ * @param {array} candidates
+ * @returns {object} redux action
+ */
+export const setFilteredCandidates = (candidates) =&gt; ({ type: FILTERED_CANDIDATES, payload: candidates });
+
+/**
+ * @desc function for changing current page in table
+ * @param {number} page
+ * @returns {object} redux action
+ */
+export const setCurrentPage = (page) =&gt; ({ type: SET_CANDIDATES_PAGE, payload: page });
+
+/**
+ * @desc function for creating request body
+ * @param {object} body
+ * @returns {object} redux action
+ */
+export const setRequestBody = (body) =&gt; ({ type: SET_REQUEST_BODY, payload: body });
+
+/**
+ * @desc function for setting total amount of candidates
+ * @param {number} quantity
+ * @returns {object} redux action
+ */
+export const setTotalCandidates = (quantity) =&gt; ({ type: SET_TOTAL_CANDIDATES, payload: quantity });
+
+/**
+ * @desc function for setting selected users
+ * @param {array} users
+ * @returns {object} redux action
+ */
+export const setSelectedUsers = (users) =&gt; ({ type: SET_SELECTED_USER, payload: users });
+
+/**
+ * @desc function for setting users with documents selected
+ * @param {boolean} payload
+ * @returns {object} redux action
+ */
+export const setWithRequestedDocs = (payload) =&gt; ({ type: SET_WITH_REQUESTED_DOCS, payload });
+
+/**
+ * @desc function for setting users with detailed info
+ * @param {boolean} payload
+ * @returns {object} redux action
+ */
+export const setWithDetailedInfo = (payload) =&gt; ({ type: SET_WITH_DETAILED_INFO, payload });
+
+/**
+ * @desc function for setting countries filters
+ * @param {array} countries
+ * @returns {object} redux action
+ */
+export const setCountriesFilters = (countries) =&gt; ({ type: SET_COUNTRIES_FILTERS, payload: countries });
+
+/**
+ * @desc function for applying error message
+ * @param {string} message - error message from request
+ * @returns {object} redux action
+ */
+export const setErrorMessage = (message) =&gt; ({ type: SET_ERROR_MESSAGE, payload: message });
+
+/**
+ * @desc function for applying with request docs candidates
+ * @param {string} quantity - quantity with request docs candidates
+ * @returns {object} redux action
+ */
+export const setWithRequestDocsCandidates = (quantity) =&gt; ({ type: SET_WITH_REQUEST_DOCS_CANDIDATES, payload: quantity });
+
+/**
+ * @desc function for disabling loader
+ * @param {boolean} payload
+ * @returns {object} redux action
+ */
+export const setAreLoaded = (payload) =&gt; ({
+	type: SET_ARE_LOADED,
+	payload,
+});
+
+/**
+ * @desc request for searching all available candidates
+ * @param {object} body
+ */
+export const searchCandidates = (body) =&gt; async (dispatch) =&gt; {
+	try {
+		const config = {
+			headers: {
+				&apos;Content-Type&apos;: &apos;application/json&apos;,
+			},
+		};
+		const response = await axios.post(`${BASE_URL}/employers/candidates/`, body, config);
+		dispatch(setFilteredCandidates(response.data.data));
+		dispatch(setTotalCandidates(response.data.total));
+		dispatch(setWithRequestDocsCandidates(response.data.fulfilledRequests));
+	} catch (err) {
+		dispatch(setAreLoaded(true));
+		console.error(err.message);
+		dispatch(setErrorMessageAPI(&apos;Schlechte Internetverbindung&apos;));
+	}
+};
+
+/**
+ * @desc request for searching all available candidates for Owner
+ * @param {object} body
+ */
+export const searchCandidatesOwner = (body) =&gt; async (dispatch) =&gt; {
+	try {
+		const config = {
+			headers: {
+				&apos;Content-Type&apos;: &apos;application/json&apos;,
+			},
+		};
+		const response = await axios.post(`${BASE_URL}/owners/candidates/`, body, config);
+		dispatch(setFilteredCandidates(response.data.data));
+		dispatch(setTotalCandidates(response.data.total));
+	} catch (err) {
+		dispatch(setAreLoaded(true));
+		console.error(err.message);
+		dispatch(setErrorMessageAPI(&apos;Schlechte Internetverbindung&apos;));
+	}
+};
+
+/**
+ * @desc function for inviting selected candidates for interview
+ * @param {object} body of request
+ */
+export const inviteForInterview = (body) =&gt; async (dispatch) =&gt; {
+	try {
+		const config = {
+			headers: {
+				&apos;Content-Type&apos;: &apos;application/json&apos;,
+			},
+		};
+		await axios.post(`${BASE_URL}/employers/inviteForInterview/`, body, config);
+	} catch (err) {
+		const { message } = err.response.data;
+		dispatch(setErrorMessage(message));
+		console.error(err.message);
+	}
+};
+
+/**
+ * @desc request for countries list from the server
+ * @return {array} list of countries
+ */
+export const getCountryFilters = async () =&gt; {
+	try {
+		const response = await axios.get(`${BASE_URL}/data/countries`);
+		return response.data;
+	} catch (err) {
+		console.error(err.message);
+		return err.message;
+	}
+};
+
+/**
+ * @desc function for setting age filter
+ * @param {array} range
+ * @returns {object} redux action
+ */
+export const setAgeFilter = (range) =&gt; ({ type: SET_AGE_FILTER, payload: range });
+
+/**
+ * @desc function for setting documents categories to redux
+ * @param {object} categoriesFromAPI
+ * @return {{payload: *, type: string}} redux action
+ */
+export const setDocumentsCategories = (categoriesFromAPI) =&gt; ({ type: SET_DOCUMENTS_CATEGORIES, payload: categoriesFromAPI });
+
+/**
+ * @desc function for getting documents categories from API
+ */
+export const getDocumentsCategories = () =&gt; async (dispatch) =&gt; {
+	try {
+		const response = await axios.get(`${BASE_URL}/data/categories`);
+		dispatch(setDocumentsCategories(response.data));
+	} catch (error) {
+		console.warn(error);
+	}
+};
+
+/**
+ * @desc function for downloading candidate&apos;s documents by category
+ * @param {string} categoryId
+ * @param {string} userId
+ * @return {Promise&lt;void&gt;}
+ */
+export const getDocumentsArchiveByCategory = async (categoryId, userId) =&gt; {
+	try {
+		const config = {
+			responseType: &apos;blob&apos;,
+			headers: {
+				&apos;Content-Type&apos;: &apos;multipart/form-data&apos;,
+			},
+		};
+		const response = await axios.get(`${BASE_URL}/candidates/documents?category_id=${categoryId}&amp;candidate_id=${userId}`, config);
+		const blob = new Blob([response.data], { type: &apos;application/zip&apos; });
+		const url = window.URL.createObjectURL(blob);
+		const fileName = response.headers[&apos;content-disposition&apos;].split(&apos;=&apos;)[1];
+		const link = document.createElement(&apos;a&apos;);
+		link.setAttribute(&apos;download&apos;, `${fileName.slice(1, fileName.length - 1)}`);
+		link.href = url;
+		document.body.appendChild(link);
+		link.click();
+		link.parentNode.removeChild(link);
+	} catch (error) {
+		console.warn(error);
+	}
+};
+
+/**
+ * @desc function for downloading all candidate&apos;s documents
+ * @param {string} userId
+ * @return {Promise&lt;boolean&gt;}
+ */
+export const getAllDocuments = async (userId) =&gt; {
+	try {
+		const config = {
+			responseType: &apos;blob&apos;,
+			headers: {
+				&apos;Content-Type&apos;: &apos;multipart/form-data&apos;,
+			},
+		};
+		const response = await axios.get(`${BASE_URL}/candidates/documents/all?candidate_id=${userId}`, config);
+		const blob = new Blob([response.data], { type: &apos;application/zip&apos; });
+		const url = window.URL.createObjectURL(blob);
+		const link = document.createElement(&apos;a&apos;);
+		link.href = url;
+		const fileName = response.headers[&apos;content-disposition&apos;].split(&apos;=&apos;)[1];
+		link.setAttribute(&apos;download&apos;, `${fileName.slice(1, fileName.length - 1)}`);
+		document.body.appendChild(link);
+		link.click();
+		link.parentNode.removeChild(link);
+		return true;
+	} catch (error) {
+		console.warn(error);
+		return false;
+	}
+};
+
+/**
+ * @desc function for requesting additionall documents from candidate
+ * @param {object} request
+ * @param {string} id
+ */
+export const sendDocumentsRequest = (request, id) =&gt; async (dispatch) =&gt; {
+	try {
+		const config = {
+			headers: {
+				&apos;Content-Type&apos;: &apos;application/json&apos;,
+			},
+		};
+
+		const body = {
+			categoryIdList: request.categoryIdList,
+			note: request.note,
+		};
+
+		axios.post(`${BASE_URL}/candidates/${id}/documents/request`, body, config);
+	} catch (error) {
+		console.warn(error);
+		dispatch(setLoaderDisabled());
+	}
+};
+
+/**
+ * @desc function for set translated CV for current candidate
+ * @param {object} data
+ * @returns {object} redux action
+ */
+export const setCandidateTranslatedCV = (data) =&gt; ({
+	type: SET_CANDIDATE_TRANSLATED_CV,
+	payload: data,
+});
+
+/**
+ * @desc function for managing CV translation process
+ * @param {boolean} payload
+ * @return {{payload: *, type: string}} redux action
+ */
+export const setCVTranslated = (payload) =&gt; ({
+	type: SET_CV_TRANSLATED,
+	payload,
+});
+
+/**
+ * @desc function for get translated CV for current candidate from back
+ * @param {string} id
+ * @return {Promise&lt;void&gt;}
+ */
+export const getCandidateTranslatedCV = (id) =&gt; async (dispatch) =&gt; {
+	try {
+		const response = await axios.get(`${BASE_URL}/candidates/${id}/translated`);
+		await dispatch(setCandidateTranslatedCV(response.data));
+		dispatch(setCVTranslated(true));
+	} catch (err) {
+		console.warn(err);
+	}
+};
+
+/**
+ * @desc function for selecting all candidates
+ * @param {boolean} payload
+ * @returns {{payload: *, type: string}} redux action
+ */
+export const toggleCandidates = (payload) =&gt; ({
+	type: TOGGLE_SELECTED_ALL,
+	payload,
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

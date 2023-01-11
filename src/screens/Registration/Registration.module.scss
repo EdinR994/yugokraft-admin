@@ -1,0 +1,54 @@
+@import "../../constants/globalConstants";
+
+.pageContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: $background-color;
+}
+
+.authorizationWrapper {
+  height: calc(100vh - 75px);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+}
+
+.authorizationContainer {
+  //height: 60vh;
+  width: 55vw;
+
+  background-color: $form-container-color;
+  box-shadow: 0 4px 30px rgba(53, 85, 117, 0.2);
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: $main-color;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+  box-sizing: border-box;
+
+  height: 100%;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+}

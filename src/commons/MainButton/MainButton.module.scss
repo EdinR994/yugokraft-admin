@@ -1,0 +1,94 @@
+@import "../../constants/globalConstants";
+
+.button {
+  position: relative;
+	width: 100%;
+	max-width: 430px;
+  height: 56px;
+
+  background-color: $main-color!important;
+  color: $background-color!important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border: none!important;
+  outline: none!important;
+  cursor: pointer;
+	transition: 0.5s ease-in-out;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 14px;
+    background-color: $pink-color;
+  }
+
+  &:hover {
+    background-color: darken($main-color, 5%) !important;
+  }
+}
+
+.buttonClose {
+  position: relative;
+	width: 100%;
+	max-width: 430px;
+	height: 56px;
+	margin-right: 20px!important;
+
+  background-color: $sidebar-color!important;
+  color: $text-color!important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border: none!important;
+  outline: none!important;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 14px;
+    background-color: $pink-color;
+  }
+
+  &:hover {
+    background-color: darken($sidebar-color, 5%) !important;
+  }
+}
+
+.disabledButton {
+  position: relative;
+	width: 100%;
+	max-width: 430px;
+	height: 56px;
+
+  background-color: #BDBDBD!important;
+  color: $background-color!important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border: none!important;
+  outline: none!important;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 10px;
+    background-color: #828282;
+  }
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import "../../constants/globalConstants";
+
+.sidebar {
+
+	&__container {
+		background-color: $textarea-bg;
+		width: 360px;
+		min-width: 360px;
+		min-height: calc(100vh - 80px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 45px;
+		z-index: 10;
+	}
+
+	&__heading {
+		font-family:'Inter', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		color: #6F6F71;
+		text-align: left;
+		width: 320px;
+		margin-bottom: 12px;
+		display: block;
+	}
+
+	&__checkbox {
+		width: 320px;
+		margin-top: 20px;
+	}
+
+	&__text {
+		color: $button-hide-color;
+	}
+
+	&__select {
+		width: 320px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 37px;
+	}
+
+	&__selects {
+		width: 320px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin-bottom: 15px;
+	}
+
+	&__delete {
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		position: relative;
+	}
+
+	&__delete::before {
+		content: '';
+		position: absolute;
+		top: 3px;
+		left: -3px;
+		width: 18px;
+		height: 18px;
+		background-image: url("/img/delete-hover.svg");
+		background-size: 100%;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		opacity: 0.4;
+		transition: 0.1s linear;
+	}
+
+	&__delete:hover::before {
+		top: 0;
+		left: -6px;
+		width: 24px;
+		height: 24px;
+		opacity: 1;
+	}
+
+	&__add {
+		width: 26px;
+		height: 26px;
+		outline: none;
+		border: none;
+		background-image: url('/img/add.png');
+		color: transparent;
+		cursor: pointer;
+		padding: 0;
+	}
+
+	&__add_container {
+		margin-top: 15px;
+		height: 30px;
+		display: flex;
+	}
+
+	&__add_text {
+		font-family: 'Inter', sans-serif;
+		display: block;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 30px;
+		color: $text-color;
+		margin-left: 10px;
+	}
+
+	&__duration {
+		width: 320px;
+		margin-top: 37px;
+	}
+
+	&__duration_select {
+		width: 319px;
+		height: 37px;
+		border: 1.5px solid $button-hide-color;
+
+		border-radius: 5px;
+		outline: none;
+		position: relative;
+		display: inline-block;
+		appearance: none;
+
+		background: url('/img/red_triangle.png') no-repeat 290px 16px;
+
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		line-height: 22px;
+		padding-left: 14px;
+		color: $headings-color;
+
+		&_error {
+			border: 1.5px solid #ff0000;
+		}
+
+		&_active {
+			background-color: #fff;
+		}
+	}
+
+	&__duration_option {
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		line-height: 22px;
+		padding-left: 14px;
+		color: $headings-color;
+	}
+
+	&__container_button {
+		margin: 90px 0 10px;
+		width: 319px;
+		height: 47px;
+
+		background: $pink-color;
+		border-radius: 5px;
+		font-family: 'Inter', sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+
+		color: $form-container-color;
+		border: none;
+		outline: none;
+		z-index: 70;
+		cursor: pointer;
+	}
+}
+
+
+.calendar__input__select {
+	background: $form-container-color;
+	border: 1.5px solid $button-hide-color;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 133px;
+	height: 37px;
+	outline: none;
+
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	color: $headings-color;
+	margin-right: 25px;
+	padding-left: 14px;
+}
+
+.calendar__input__select_error {
+	border: 1.5px solid #ff0000;
+}
+
+.calendar__input__select:last-child {
+	margin-right: 14px;
+}
+
+.calendar__input__select ~ input {
+	display: block;
+}
+
+.customCheckbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.customCheckbox+label {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: capitalize;
+	color: $headings-color;
+}
+
+.customCheckbox+label::before {
+	content: '';
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-color: $form-container-color;
+	border: 1.5px solid $button-hide-color;
+	border-radius: 5px;
+	margin: 0 12px 0 0;
+	cursor: pointer;
+	flex-shrink: 0;
+	flex-grow: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+
+.customCheckbox:checked+label::before {
+	background-image: url("/img/flag.svg");
+	background-color: $pink-color;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+}
+
+input:disabled {
+	background-color: #E9E9E9;
+}
+
+select:disabled {
+	background-color: #E9E9E9;
+}

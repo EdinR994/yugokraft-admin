@@ -1,0 +1,44 @@
+@import "../../constants/globalConstants";
+
+.calendar {
+	width: 320px;
+	height: 350px;
+	position: relative;
+
+	&__inputs {
+		display: flex;
+		margin-top: 20px;
+		justify-content: space-between;
+		width: 318px;
+	 }
+
+	 &__inputs:focus {
+		outline: none;
+	}
+
+	 &__input {
+		background: $form-container-color;
+		border: 1.5px solid $button-hide-color;
+		border-radius: 5px;
+		width: 145.82px;
+		height: 37px;
+		padding-left: 15px;
+		outline: none;
+
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+    color: $headings-color;
+	 }
+
+	 &__after {
+		 display: block;
+		 position: absolute;
+		 top: 80px;
+		 left: 0;
+		 width: 360px;
+		 height: 100%;
+		 max-width: 100%;
+		 background-color: rgba(237,237,237,0.4);
+		 z-index: 50;
+	 }
+ }
