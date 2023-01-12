@@ -24,10 +24,10 @@ http {
 
     server {
         listen 80;
-	server_name admin.yugokraft.de
+        server_name ${APP_URL}
 
-	add_header Strict-Transport-Security "max-age=15768000; includeSubDomains" always;
-	reset_timedout_connection on;
+        add_header Strict-Transport-Security "max-age=15768000; includeSubDomains" always;
+        reset_timedout_connection on;
 
         gzip on;
         gzip_min_length 10240;
